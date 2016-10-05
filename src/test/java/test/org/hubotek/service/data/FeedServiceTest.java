@@ -1,22 +1,21 @@
-package test.org.hubotek.service.repository.orm;
+package test.org.hubotek.service.data;
 
 import javax.inject.Inject;
-import javax.transaction.NotSupportedException;
-import javax.transaction.SystemException;
 import javax.transaction.UserTransaction;
 
 import org.hubotek.ElementEnum;
 import org.hubotek.model.HubDocument;
 import org.hubotek.model.cse.GoogleSearchEngineBase;
+import org.hubotek.model.feed.FeedUrl;
 import org.hubotek.model.google.GoogleBase;
 import org.hubotek.model.google.news.NewsTopic;
 import org.hubotek.model.project.api.GoogleApiKey;
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.url.NamedUrl;
 import org.hubotek.service.Service;
+import org.hubotek.service.data.FeedService;
 import org.hubotek.service.orm.PersistenceService;
 import org.hubotek.test.BasePersistenceTestClass;
-import org.hubotek.test.BaseTestClass;
 import org.hubotek.util.DOMElementExtratorUtil;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
@@ -28,10 +27,10 @@ import org.junit.runner.RunWith;
 import org.nanotek.Base;
 
 @RunWith(Arquillian.class)
-public class TestPersistenceService  extends BaseTestClass{
+public class FeedServiceTest {
 
 	@Inject 
-	PersistenceService persistenceService;
+	FeedService feedService;
 	
 	@Inject
 	UserTransaction utx;
@@ -41,6 +40,8 @@ public class TestPersistenceService  extends BaseTestClass{
 	{ 
 		return ShrinkWrap.create(JavaArchive.class)
 				.addPackage(Service.class.getPackage())
+				.addPackage(FeedService.class.getPackage())
+				.addPackage(FeedUrl.class.getPackage())
 				.addPackage(PersistenceService.class.getPackage())
 				.addPackage(BasePersistenceTestClass.class.getPackage())
 				.addPackage(Base.class.getPackage())
@@ -58,17 +59,19 @@ public class TestPersistenceService  extends BaseTestClass{
 				.addAsResource("META-INF/persistence.xml", "META-INF/persistence.xml");
 	}
 	
+	@Test
+	public void test(){}
 	
 	@Test
-	public void test_persistence_service_usage() throws Exception {
-		utx.begin();
-		NewsTopic n = new NewsTopic();
-		n.setId(1l);
-		n.setTopic("Simple Topic");
-		persistenceService.delete(NewsTopic.class);
-		persistenceService.save(n);
-		utx.commit();
+	public void testSave() throws Exception
+	{ 
+			utx.begin();
+			feedService.deleteAll();
+			FeedUrl n = new FeedUrl();
+			n.setId(1l);
+			n.setUrl("A Simple Url For Test");
+			feedService.saveFeedUrl(n);
+			utx.commit();
 	}
-	
 	
 }

@@ -2,7 +2,6 @@ package org.hubotek.service.data;
 
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
 import org.hubotek.model.feed.FeedUrl;
@@ -30,5 +29,10 @@ public class FeedService implements Service {
 		TypedQuery<FeedUrl> query =  persistenceService.createQuery("Select fu from FeedUrl fu where fu.name = :yours" , FeedUrl.class); 
 		query.setParameter("yours", name);
 		return query.getSingleResult();
+	}
+	
+	public void deleteAll ()
+	{ 
+		persistenceService.delete(FeedUrl.class);
 	}
 }
