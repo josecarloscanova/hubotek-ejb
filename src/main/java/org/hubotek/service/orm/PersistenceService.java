@@ -22,6 +22,14 @@ public class PersistenceService {
 	@PersistenceContext
 	private EntityManager entityManager;
 	
+	
+	public PersistenceService(){}
+	
+	public EntityManager  getEntityManager () 
+	{ 
+		return entityManager;
+	}
+	
 	public <T extends Base<?>> T save(T t)
 	{ 
 		return entityManager.merge(t);
