@@ -13,7 +13,7 @@ import org.hubotek.model.google.news.NewsTopic;
 import org.hubotek.model.project.api.GoogleApiKey;
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.url.NamedUrl;
-import org.hubotek.service.repository.orm.PersistenceService;
+import org.hubotek.service.orm.PersistenceService;
 import org.hubotek.test.BasePersistenceTestClass;
 import org.hubotek.test.BaseTestClass;
 import org.hubotek.util.DOMElementExtratorUtil;
