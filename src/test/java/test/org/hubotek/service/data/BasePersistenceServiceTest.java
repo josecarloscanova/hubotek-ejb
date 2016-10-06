@@ -5,7 +5,6 @@ import javax.transaction.UserTransaction;
 
 import org.hubotek.ElementEnum;
 import org.hubotek.model.HubDocument;
-import org.hubotek.model.cse.GoogleSearchEngineBase;
 import org.hubotek.model.feed.FeedUrl;
 import org.hubotek.model.google.GoogleBase;
 import org.hubotek.model.google.news.NewsTopic;
@@ -14,6 +13,7 @@ import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.url.NamedUrl;
 import org.hubotek.service.Service;
 import org.hubotek.service.data.FeedService;
+import org.hubotek.service.data.GoogleSearchEnginePersistenceService;
 import org.hubotek.service.orm.PersistenceService;
 import org.hubotek.test.BasePersistenceTestClass;
 import org.hubotek.util.DOMElementExtratorUtil;
@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
 import org.nanotek.Base;
 
 @RunWith(Arquillian.class)
-public class FeedServiceTest {
+public class BasePersistenceServiceTest {
 
 	@Inject 
 	FeedService feedService;
@@ -39,6 +39,7 @@ public class FeedServiceTest {
 	public static JavaArchive createDeployment()
 	{ 
 		return ShrinkWrap.create(JavaArchive.class)
+				.addPackage(GoogleSearchEnginePersistenceService.class.getPackage())
 				.addPackage(Service.class.getPackage())
 				.addPackage(FeedService.class.getPackage())
 				.addPackage(FeedUrl.class.getPackage())
@@ -51,7 +52,6 @@ public class FeedServiceTest {
 				.addPackage(HubDocument.class.getPackage())
 				.addPackage(RssDocument.class.getPackage())
 				.addPackage(NamedUrl.class.getPackage())
-				.addPackage(GoogleSearchEngineBase.class.getPackage())
 				.addClass(GoogleBase.class)
 				.addPackage(NewsTopic.class.getPackage())
 				.addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
@@ -63,7 +63,19 @@ public class FeedServiceTest {
 	public void test(){}
 	
 	@Test
-	public void testSave() throws Exception
+	public void testSaveCseEngine()
+	{ 
+		utx.begin();
+		feedService.deleteAll();
+		FeedUrl n = new FeedUrl();
+		n.setId(1l);
+		n.setUrl("A Simple Url For Test");
+		feedService.saveFeedUrl(n);
+		utx.commit();
+	}
+	
+	@Test
+	public void testSaveFeedUrl() throws Exception
 	{ 
 			utx.begin();
 			feedService.deleteAll();

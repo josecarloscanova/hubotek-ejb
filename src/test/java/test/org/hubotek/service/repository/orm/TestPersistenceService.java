@@ -1,13 +1,11 @@
 package test.org.hubotek.service.repository.orm;
 
 import javax.inject.Inject;
-import javax.transaction.NotSupportedException;
-import javax.transaction.SystemException;
 import javax.transaction.UserTransaction;
 
 import org.hubotek.ElementEnum;
 import org.hubotek.model.HubDocument;
-import org.hubotek.model.cse.GoogleSearchEngineBase;
+import org.hubotek.model.cse.GoogleSearchEngine;
 import org.hubotek.model.google.GoogleBase;
 import org.hubotek.model.google.news.NewsTopic;
 import org.hubotek.model.project.api.GoogleApiKey;
@@ -50,7 +48,7 @@ public class TestPersistenceService  extends BaseTestClass{
 				.addPackage(HubDocument.class.getPackage())
 				.addPackage(RssDocument.class.getPackage())
 				.addPackage(NamedUrl.class.getPackage())
-				.addPackage(GoogleSearchEngineBase.class.getPackage())
+				.addPackage(GoogleSearchEngine.class.getPackage())
 				.addClass(GoogleBase.class)
 				.addPackage(NewsTopic.class.getPackage())
 				.addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")

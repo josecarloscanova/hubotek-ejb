@@ -16,6 +16,12 @@ import javax.persistence.criteria.Root;
 
 import org.nanotek.Base;
 
+/**
+ * Not yet finished
+ * 
+ * @author JoseCanova
+ *
+ */
 @Named
 public class PersistenceService {
 
