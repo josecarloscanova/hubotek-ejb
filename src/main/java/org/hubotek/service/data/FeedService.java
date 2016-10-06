@@ -1,19 +1,14 @@
 package org.hubotek.service.data;
 
-import javax.inject.Inject;
 import javax.inject.Named;
 import javax.persistence.TypedQuery;
 
 import org.hubotek.model.feed.FeedUrl;
 import org.hubotek.service.DataBaseService;
-import org.hubotek.service.orm.PersistenceService;
 
 @Named
 public class FeedService extends DataBaseService<FeedUrl , Long> {
 
-	@Inject 
-	private PersistenceService persistenceService; 
-	
 	public FeedUrl saveFeedUrl(FeedUrl feedUrl)
 	{ 
 		return persistenceService.save(feedUrl);

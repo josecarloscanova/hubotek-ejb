@@ -1,12 +1,9 @@
 package org.hubotek.service.data;
 
-import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.hubotek.model.cse.GoogleSearchEngine;
-import org.hubotek.model.feed.FeedUrl;
 import org.hubotek.service.DataBaseService;
-import org.hubotek.service.orm.PersistenceService;
 
 @Named
 public class GoogleSearchEngineService extends DataBaseService<GoogleSearchEngine , String>{
