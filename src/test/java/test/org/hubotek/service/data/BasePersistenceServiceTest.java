@@ -5,6 +5,7 @@ import javax.transaction.UserTransaction;
 
 import org.hubotek.ElementEnum;
 import org.hubotek.model.HubDocument;
+import org.hubotek.model.cse.GoogleSearchEngine;
 import org.hubotek.model.feed.FeedUrl;
 import org.hubotek.model.google.GoogleBase;
 import org.hubotek.model.google.news.NewsTopic;
@@ -31,6 +32,9 @@ public class BasePersistenceServiceTest {
 
 	@Inject 
 	FeedService feedService;
+	
+	@Inject
+	GoogleSearchEngineService googleSearchEngineService;
 	
 	@Inject
 	UserTransaction utx;
@@ -66,11 +70,12 @@ public class BasePersistenceServiceTest {
 	public void testSaveCseEngine()  throws Exception
 	{ 
 		utx.begin();
-		feedService.deleteAll();
-		FeedUrl n = new FeedUrl();
-		n.setId(1l);
-		n.setUrl("A Simple Url For Test");
-		feedService.saveFeedUrl(n);
+		googleSearchEngineService.deleteAll();
+		GoogleSearchEngine n = new GoogleSearchEngine();
+		n.setId("cx-id-for-service");
+		
+		n.setDescription("A simple Description");
+		googleSearchEngineService.saveSearchEngineDefinition(n);
 		utx.commit();
 	}
 	

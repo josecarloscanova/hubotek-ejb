@@ -5,11 +5,11 @@ import javax.inject.Named;
 import javax.persistence.TypedQuery;
 
 import org.hubotek.model.feed.FeedUrl;
-import org.hubotek.service.Service;
+import org.hubotek.service.DataBaseService;
 import org.hubotek.service.orm.PersistenceService;
 
 @Named
-public class FeedService implements Service {
+public class FeedService extends DataBaseService<FeedUrl , Long> {
 
 	@Inject 
 	private PersistenceService persistenceService; 
