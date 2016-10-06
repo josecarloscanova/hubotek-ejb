@@ -12,6 +12,7 @@ import org.hubotek.model.google.news.NewsTopic;
 import org.hubotek.model.project.api.GoogleApiKey;
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.url.NamedUrl;
+import org.hubotek.service.DataBaseService;
 import org.hubotek.service.Service;
 import org.hubotek.service.data.FeedService;
 import org.hubotek.service.data.GoogleSearchEngineService;
@@ -43,9 +44,10 @@ public class BasePersistenceServiceTest {
 	public static JavaArchive createDeployment()
 	{ 
 		return ShrinkWrap.create(JavaArchive.class)
-				.addPackage(GoogleSearchEngineService.class.getPackage())
-				.addPackage(Service.class.getPackage())
+				.addPackage(DataBaseService.class.getPackage())
 				.addPackage(FeedService.class.getPackage())
+				.addPackage(GoogleSearchEngineService.class.getPackage())
+				.addPackage(GoogleSearchEngine.class.getPackage())
 				.addPackage(FeedUrl.class.getPackage())
 				.addPackage(PersistenceService.class.getPackage())
 				.addPackage(BasePersistenceTestClass.class.getPackage())
@@ -73,8 +75,8 @@ public class BasePersistenceServiceTest {
 		googleSearchEngineService.deleteAll();
 		GoogleSearchEngine n = new GoogleSearchEngine();
 		n.setId("cx-id-for-service");
-		
 		n.setDescription("A simple Description");
+		n.setName("A simple Name for de CSE");
 		googleSearchEngineService.saveSearchEngineDefinition(n);
 		utx.commit();
 	}
