@@ -75,8 +75,8 @@ public class BasePersistenceServiceTest {
 		googleSearchEngineService.deleteAll();
 		GoogleSearchEngine n = new GoogleSearchEngine();
 		n.setId("cx-id-for-service");
-		n.setDescription("A simple Description");
-		n.setName("A simple Name for de CSE");
+		n.setDescription("A simple Description new Test");
+		n.setName("CSE-NAME");
 		googleSearchEngineService.saveSearchEngineDefinition(n);
 		utx.commit();
 	}
