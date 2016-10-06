@@ -13,7 +13,7 @@ import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.url.NamedUrl;
 import org.hubotek.service.Service;
 import org.hubotek.service.data.FeedService;
-import org.hubotek.service.data.GoogleSearchEnginePersistenceService;
+import org.hubotek.service.data.GoogleSearchEngineService;
 import org.hubotek.service.orm.PersistenceService;
 import org.hubotek.test.BasePersistenceTestClass;
 import org.hubotek.util.DOMElementExtratorUtil;
@@ -39,7 +39,7 @@ public class BasePersistenceServiceTest {
 	public static JavaArchive createDeployment()
 	{ 
 		return ShrinkWrap.create(JavaArchive.class)
-				.addPackage(GoogleSearchEnginePersistenceService.class.getPackage())
+				.addPackage(GoogleSearchEngineService.class.getPackage())
 				.addPackage(Service.class.getPackage())
 				.addPackage(FeedService.class.getPackage())
 				.addPackage(FeedUrl.class.getPackage())
@@ -63,7 +63,7 @@ public class BasePersistenceServiceTest {
 	public void test(){}
 	
 	@Test
-	public void testSaveCseEngine()
+	public void testSaveCseEngine()  throws Exception
 	{ 
 		utx.begin();
 		feedService.deleteAll();

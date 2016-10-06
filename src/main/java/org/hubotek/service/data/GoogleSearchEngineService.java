@@ -7,7 +7,7 @@ import org.hubotek.model.cse.GoogleSearchEngine;
 import org.hubotek.service.orm.PersistenceService;
 
 @Named
-public class GoogleSearchEnginePersistenceService {
+public class GoogleSearchEngineService {
 
 	
 	@Inject 
