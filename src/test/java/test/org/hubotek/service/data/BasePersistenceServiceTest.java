@@ -13,7 +13,6 @@ import org.hubotek.model.project.api.GoogleApiKey;
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.url.NamedUrl;
 import org.hubotek.service.DataBaseService;
-import org.hubotek.service.Service;
 import org.hubotek.service.data.FeedService;
 import org.hubotek.service.data.GoogleSearchEngineService;
 import org.hubotek.service.orm.PersistenceService;
