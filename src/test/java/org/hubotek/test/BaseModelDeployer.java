@@ -18,6 +18,9 @@ import org.hubotek.model.project.api.GoogleApiKey;
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.search.GoogleSearchResult;
 import org.hubotek.model.url.NamedUrl;
+import org.hubotek.service.DataBaseService;
+import org.hubotek.service.data.RssDocumentService;
+import org.hubotek.service.orm.PersistenceService;
 import org.hubotek.util.DOMElementExtratorUtil;
 import org.hubotek.util.DomParser;
 import org.jboss.arquillian.container.test.api.Deployment;
@@ -53,10 +56,12 @@ public class BaseModelDeployer extends BaseModelPersistenceTestClass{
 				.addPackage(NewsTopic.class.getPackage())
 				.addPackage(GoogleResultItem.class.getPackage())
 				.addPackage(GoogleSearchResult.class.getPackage())
+				.addPackage(DataBaseService.class.getPackage())
+				.addPackage(RssDocumentService.class.getPackage())
+				.addPackage(PersistenceService.class.getPackage())
 				.addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
-				.addAsResource("log4j.properties", "log4j.properties")
 				.addAsResource("META-INF/persistence.xml", "META-INF/persistence.xml")
-				.addAsResource("xml/google_news_feed1.xml" , "google_news_feed.xml" );
+				.addAsResource("log4j.properties", "log4j.properties");
 	}
 	
 	public Document generateDocumentFromSoource(String fileLocation) throws Exception
