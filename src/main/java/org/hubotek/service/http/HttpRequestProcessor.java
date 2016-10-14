@@ -4,9 +4,10 @@ import javax.inject.Named;
 
 import org.apache.http.client.fluent.Request;
 import org.hubotek.service.HubotekServiceException;
+import org.hubotek.service.Service;
 
 @Named
-public class HttpRequestProcessor {
+public class HttpRequestProcessor implements Service{
 
 	public String processRequest(String url , HttpRequestParameters requestParameters)
 	{ 
