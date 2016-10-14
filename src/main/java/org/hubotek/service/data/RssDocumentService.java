@@ -10,13 +10,11 @@ import org.hubotek.service.orm.PersistenceService;
 @Named
 public class RssDocumentService extends DataBaseService<RssDocument , Long> {
 
-	
 	@Inject 
 	PersistenceService persistenceService; 
 	
 	@Override
 	public void deleteAll() {
-		//nothing for now.
 	}
 
 	@Override
