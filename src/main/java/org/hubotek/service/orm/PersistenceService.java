@@ -164,6 +164,4 @@ public class PersistenceService {
 		return entityManager.getCriteriaBuilder();
 	}
 	
-	
-	
 }

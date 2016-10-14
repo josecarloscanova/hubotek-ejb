@@ -2,11 +2,11 @@ package org.hubotek.service.data;
 
 import javax.inject.Named;
 
-import org.hubotek.model.cse.GoogleSearchEngine;
+import org.hubotek.model.google.cse.GoogleSearchEngine;
 import org.hubotek.service.DataBaseService;
 
 @Named
-public class GoogleSearchEngineService extends DataBaseService<GoogleSearchEngine , String>{
+public class GoogleSearchEngineService extends DataBaseService<GoogleSearchEngine , Long>{
 
 	
 	public GoogleSearchEngine saveSearchEngineDefinition(GoogleSearchEngine cse)
@@ -14,7 +14,7 @@ public class GoogleSearchEngineService extends DataBaseService<GoogleSearchEngin
 		return persistenceService.save(cse);
 	}
 	
-	public GoogleSearchEngine findById(String id)
+	public GoogleSearchEngine findById(Long id)
 	{ 
 		return persistenceService.find(GoogleSearchEngine.class, id);
 	}
