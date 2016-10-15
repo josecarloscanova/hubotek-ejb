@@ -20,6 +20,8 @@ import org.hubotek.model.search.GoogleSearchResult;
 import org.hubotek.model.url.NamedUrl;
 import org.hubotek.service.DataBaseService;
 import org.hubotek.service.data.RssDocumentService;
+import org.hubotek.service.ejb.HttpService;
+import org.hubotek.service.ejb.http.HttpServiceImpl;
 import org.hubotek.service.orm.PersistenceService;
 import org.hubotek.util.DOMElementExtratorUtil;
 import org.hubotek.util.DomParser;
@@ -32,6 +34,7 @@ import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 
 public class BaseModelDeployer extends BaseModelPersistenceTestClass{
+	
 	@Deployment
 	public static JavaArchive createDeployment() {
 
@@ -59,6 +62,8 @@ public class BaseModelDeployer extends BaseModelPersistenceTestClass{
 				.addPackage(DataBaseService.class.getPackage())
 				.addPackage(RssDocumentService.class.getPackage())
 				.addPackage(PersistenceService.class.getPackage())
+				.addPackage(HttpServiceImpl.class.getPackage())
+				.addPackage(HttpService.class.getPackage())
 				.addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
 				.addAsResource("META-INF/persistence.xml", "META-INF/persistence.xml")
 				.addAsResource("log4j.properties", "log4j.properties");
