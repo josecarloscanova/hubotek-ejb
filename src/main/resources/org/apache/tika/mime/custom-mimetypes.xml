@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info>
+  <mime-type type="text/properties">
+     <_comment>Java Properties</_comment>
+     <glob pattern="*.properties"/>
+     <sub-class-of type="text/plain"/>
+   </mime-type>
+   <mime-type type="application/atom+xml">
+     <root-XML localName="feed" namespaceURI="http://purl.org/atom/ns#"/>
+     <root-XML localName="feed" namespaceURI="http://www.w3.org/2005/Atom"/>
+     <glob pattern="*.xml"/>
+  </mime-type>
+</mime-info>

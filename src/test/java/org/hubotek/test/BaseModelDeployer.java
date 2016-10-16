@@ -21,7 +21,15 @@ import org.hubotek.model.url.NamedUrl;
 import org.hubotek.service.DataBaseService;
 import org.hubotek.service.data.RssDocumentService;
 import org.hubotek.service.ejb.HttpService;
+import org.hubotek.service.ejb.HubDocumentService;
+import org.hubotek.service.ejb.LocalService;
+import org.hubotek.service.ejb.document.HubDocumentServiceImpl;
+import org.hubotek.service.ejb.document.HubDocumentType;
 import org.hubotek.service.ejb.http.HttpServiceImpl;
+import org.hubotek.service.http.HttpRequestParameters;
+import org.hubotek.service.http.HttpRequestProcessor;
+import org.hubotek.service.http.RequestReference;
+import org.hubotek.service.http.RequestType;
 import org.hubotek.service.orm.PersistenceService;
 import org.hubotek.util.DOMElementExtratorUtil;
 import org.hubotek.util.DomParser;
@@ -63,7 +71,16 @@ public class BaseModelDeployer extends BaseModelPersistenceTestClass{
 				.addPackage(RssDocumentService.class.getPackage())
 				.addPackage(PersistenceService.class.getPackage())
 				.addPackage(HttpServiceImpl.class.getPackage())
-				.addPackage(HttpService.class.getPackage())
+				.addClass(HubDocumentService.class)
+				.addClass(HubDocumentServiceImpl.class)
+				.addClass(LocalService.class)
+				.addClass(HttpService.class)
+				.addClass(HttpServiceImpl.class)
+				.addClass(HttpRequestProcessor.class)
+				.addClass(HubDocumentType.class)
+				.addClass(RequestType.class)
+				.addClass(RequestReference.class)
+				.addClass(HttpRequestParameters.class)
 				.addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
 				.addAsResource("META-INF/persistence.xml", "META-INF/persistence.xml")
 				.addAsResource("log4j.properties", "log4j.properties");

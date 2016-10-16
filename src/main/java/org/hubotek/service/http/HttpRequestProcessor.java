@@ -1,23 +1,12 @@
 package org.hubotek.service.http;
 
-import java.io.StringReader;
 import java.util.EnumMap;
 import java.util.Map;
 
 import javax.inject.Named;
-
 import org.apache.http.client.fluent.Request;
-import org.hubotek.HubotekException;
-import org.hubotek.model.rss.RssDocument;
-import org.hubotek.model.rss.RssDocumentBuilder;
-import org.hubotek.model.rss.RssItem;
 import org.hubotek.service.HubotekServiceException;
 import org.hubotek.service.Service;
-import org.hubotek.util.DomParser;
-import org.w3c.dom.Document;
-import org.xml.sax.InputSource;
-
-
 
 @Named
 public class HttpRequestProcessor implements Service{
