@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+import javax.inject.Inject;
+
 import org.hubotek.ElementEnum;
 import org.hubotek.model.HubDocument;
 import org.hubotek.model.atom.AtomBase;
@@ -44,8 +46,9 @@ import org.jboss.shrinkwrap.api.spec.WebArchive;
 import org.jboss.shrinkwrap.resolver.api.maven.Maven;
 import org.nanotek.Base;
 
-public class BaseEarModelDeployer {
+public abstract class BaseEarModelDeployer {
 
+	
 	@Deployment
 	public static Archive<?> createDeploymentPackage() throws IOException {
 
@@ -54,7 +57,21 @@ public class BaseEarModelDeployer {
 
 		Stream<File> jarFilesStream = Arrays.asList(files).stream();//.forEach(s -> print(s.getName()))
 
-		final JavaArchive ejbJar = ShrinkWrap.create(JavaArchive.class, "ejb-jar.jar")
+		final EnterpriseArchive ear = ShrinkWrap.create(EnterpriseArchive.class)
+				.setApplicationXML("ear/test-application.xml")
+				.addAsModule(prepareEjbJarArchive())
+				.addAsModule(prepareWarArchive());
+		jarFilesStream.forEach(jf -> ear.addAsLibraries(jf));
+		return ear;
+	}
+	
+	protected static WebArchive prepareWarArchive() {
+		return  ShrinkWrap.create(WebArchive.class, "test.war").addClass(BaseEarModelDeployer.class).addClass(TestHttpRequestProcessor.class);
+	}
+
+	protected static JavaArchive prepareEjbJarArchive()
+	{ 
+		JavaArchive ejbJar = ShrinkWrap.create(JavaArchive.class, "ejb-jar.jar")
 				.addPackage(FeedUrl.class.getPackage())
 				.addPackage(AtomDocumentContent.class.getPackage())
 				.addPackage(AtomBase.class.getPackage())
@@ -89,19 +106,8 @@ public class BaseEarModelDeployer {
 				.addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
 				.addAsResource("META-INF/persistence.xml", "META-INF/persistence.xml")
 				.addAsResource("log4j.properties", "log4j.properties");
-
-		/*final JavaArchive ejbJar = ShrinkWrap.create(JavaArchive.class, "ejb-jar.jar")
-				.addPackage(Service.class.getPackage())
-				.addPackage(HttpRequestProcessor.class.getPackage())
-				.addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");*/
-
-		final WebArchive testWar = ShrinkWrap.create(WebArchive.class, "test.war").addClass(BaseEarModelDeployer.class).addClass(TestHttpRequestProcessor.class);
-		final EnterpriseArchive ear = ShrinkWrap.create(EnterpriseArchive.class)
-				.setApplicationXML("ear/test-application.xml")
-				.addAsModule(ejbJar)
-				.addAsModule(testWar);
-		jarFilesStream.forEach(jf -> ear.addAsLibraries(jf));
-		return ear;
+		
+		return ejbJar;
 	}
 
 }

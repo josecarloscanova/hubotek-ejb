@@ -1,4 +1,4 @@
-package org.hubotek.service.ejb.document;
+package org.hubotek;
 
 import java.io.StringReader;
 

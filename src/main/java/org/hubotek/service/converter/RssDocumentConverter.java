@@ -1,9 +1,9 @@
 package org.hubotek.service.converter;
 
+import org.hubotek.DocumentConverter;
 import org.hubotek.HubotekException;
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.rss.RssDocumentBuilder;
-import org.hubotek.service.ejb.document.DocumentConverter;
 
 public class RssDocumentConverter implements DocumentConverter<RssDocument>{
 

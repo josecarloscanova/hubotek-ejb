@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.hubotek.Converter;
+import org.hubotek.DocumentConverter;
 import org.hubotek.model.HubDocument;
-import org.hubotek.service.ejb.document.DocumentConverter;
 import org.hubotek.service.ejb.document.HubDocumentType;
 
 public class HubDocumentConverter<T extends HubDocument> implements Converter<T,String> {
