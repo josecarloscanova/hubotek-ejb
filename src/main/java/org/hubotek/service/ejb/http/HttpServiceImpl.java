@@ -13,10 +13,24 @@ public class HttpServiceImpl implements HttpService {
 
 	@Inject 
 	HttpRequestProcessor requestProcessor; 
-	
+
 	@Override
 	public String doRequest(String url) {
-		return requestProcessor.processRequest(url, new HttpRequestParameters(), RequestType.GET);
+		return doRequest(url , new HttpRequestParameters() , RequestType.GET);
 	}
 
+
+	@Override
+	public String doRequest(String url, RequestType requestType) {
+		return doRequest(url , new HttpRequestParameters() , requestType);
+	}
+
+	@Override
+	public String doRequest(String url, RequestType requestType, HttpRequestParameters httpRequestParameters) {
+		return requestProcessor.processRequest(url, httpRequestParameters, RequestType.GET);
+	}
+
+	public String doRequest(String url, HttpRequestParameters httpRequestParameters, RequestType get) {
+		return requestProcessor.processRequest(url, httpRequestParameters, RequestType.GET);	
+	}
 }
