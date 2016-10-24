@@ -22,7 +22,7 @@ import org.nanotek.Base;
  * @author JoseCanova
  *
  */
-@Named
+@Named(value="persistenceService")
 public class PersistenceService {
 
 	@PersistenceContext

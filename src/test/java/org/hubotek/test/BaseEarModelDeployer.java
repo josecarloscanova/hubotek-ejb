@@ -10,6 +10,7 @@ import javax.inject.Inject;
 import org.hubotek.ElementEnum;
 import org.hubotek.model.HubDocument;
 import org.hubotek.model.atom.AtomBase;
+import org.hubotek.model.document.DocumentBase;
 import org.hubotek.model.feed.FeedUrl;
 import org.hubotek.model.google.GoogleBase;
 import org.hubotek.model.google.cse.GoogleSearchEngine;
@@ -71,6 +72,26 @@ public abstract class BaseEarModelDeployer {
 
 	protected static JavaArchive prepareEjbJarArchive()
 	{ 
+		
+		/*.addPackage(FeedUrl.class.getPackage())
+		.addPackage(AtomDocumentContent.class.getPackage())
+		.addPackage(AtomBase.class.getPackage())
+		.addPackage(BaseModelPersistenceTestClass.class.getPackage())
+		.addPackage(Base.class.getPackage())
+		.addPackage(GoogleApiKey.class.getPackage())
+		.addPackage(DOMElementExtratorUtil.class.getPackage())
+		.addPackage(ElementEnum.class.getPackage())
+		.addPackage(HubDocument.class.getPackage())
+		.addPackage(RssDocument.class.getPackage())
+		.addPackage(RssItemDescription.class.getPackage())
+		.addPackage(NamedUrl.class.getPackage())
+		.addPackage(GoogleSearchEngine.class.getPackage())
+		.addPackage(GoogleBase.class.getPackage())
+		.addPackage(NewsTopic.class.getPackage())
+		.addPackage(GoogleResultItem.class.getPackage())
+		.addPackage(GoogleSearchResult.class.getPackage())
+		.addPackage(DocumentBase.class.getPackage())
+		*/
 		JavaArchive ejbJar = ShrinkWrap.create(JavaArchive.class, "ejb-jar.jar")
 				.addPackage(FeedUrl.class.getPackage())
 				.addPackage(AtomDocumentContent.class.getPackage())
@@ -104,7 +125,6 @@ public abstract class BaseEarModelDeployer {
 				.addClass(RequestReference.class)
 				.addClass(HttpRequestParameters.class)
 				.addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
-				.addAsResource("META-INF/persistence.xml", "META-INF/persistence.xml")
 				.addAsResource("log4j.properties", "log4j.properties");
 		
 		return ejbJar;
