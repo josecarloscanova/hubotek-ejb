@@ -3,14 +3,12 @@ package org.hubotek.test;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Stream;
-
-import javax.inject.Inject;
 
 import org.hubotek.ElementEnum;
 import org.hubotek.model.HubDocument;
 import org.hubotek.model.atom.AtomBase;
-import org.hubotek.model.document.DocumentBase;
 import org.hubotek.model.feed.FeedUrl;
 import org.hubotek.model.google.GoogleBase;
 import org.hubotek.model.google.cse.GoogleSearchEngine;
@@ -30,12 +28,14 @@ import org.hubotek.service.ejb.LocalService;
 import org.hubotek.service.ejb.document.HubDocumentServiceImpl;
 import org.hubotek.service.ejb.document.HubDocumentType;
 import org.hubotek.service.ejb.http.HttpServiceImpl;
+import org.hubotek.service.google.news.GoogleNewsService;
 import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.HttpRequestProcessor;
 import org.hubotek.service.http.RequestReference;
 import org.hubotek.service.http.RequestType;
 import org.hubotek.service.orm.PersistenceService;
 import org.hubotek.test.http.TestHttpRequestProcessor;
+import org.hubotek.test.services.TestGoogleNewsService;
 import org.hubotek.util.DOMElementExtratorUtil;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.shrinkwrap.api.Archive;
@@ -62,12 +62,18 @@ public abstract class BaseEarModelDeployer {
 				.setApplicationXML("ear/test-application.xml")
 				.addAsModule(prepareEjbJarArchive())
 				.addAsModule(prepareWarArchive());
+//		retrieveModelJavaArchive().stream().forEach(mod -> ear.addAsModule(mod));
 		jarFilesStream.forEach(jf -> ear.addAsLibraries(jf));
 		return ear;
 	}
 	
+	protected static List<JavaArchive> retrieveModelJavaArchive() 
+	{ 
+		return  Arrays.asList(Maven.resolver().resolve("org.hubotek:model:1.0").withoutTransitivity().as(JavaArchive.class));
+	}
+	
 	protected static WebArchive prepareWarArchive() {
-		return  ShrinkWrap.create(WebArchive.class, "test.war").addClass(BaseEarModelDeployer.class).addClass(TestHttpRequestProcessor.class);
+		return  ShrinkWrap.create(WebArchive.class, "test.war").addClass(BaseEarModelDeployer.class).addClass(TestHttpRequestProcessor.class).addClass(TestGoogleNewsService.class);
 	}
 
 	protected static JavaArchive prepareEjbJarArchive()
@@ -93,6 +99,7 @@ public abstract class BaseEarModelDeployer {
 		.addPackage(DocumentBase.class.getPackage())
 		*/
 		JavaArchive ejbJar = ShrinkWrap.create(JavaArchive.class, "ejb-jar.jar")
+				.addPackage(GoogleNewsService.class.getPackage())
 				.addPackage(FeedUrl.class.getPackage())
 				.addPackage(AtomDocumentContent.class.getPackage())
 				.addPackage(AtomBase.class.getPackage())

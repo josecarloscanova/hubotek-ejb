@@ -1,14 +1,17 @@
 package org.hubotek.service.ejb.http;
 
 import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
 import javax.inject.Inject;
 
 import org.hubotek.service.ejb.HttpService;
-import org.hubotek.service.http.RequestType;
 import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.HttpRequestProcessor;
+import org.hubotek.service.http.RequestType;
 
 @Stateless
+@TransactionAttribute(TransactionAttributeType.SUPPORTS)
 public class HttpServiceImpl implements HttpService {
 
 	@Inject 

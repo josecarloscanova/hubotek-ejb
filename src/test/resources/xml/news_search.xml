@@ -1,0 +1,1223 @@
+<rss version="2.0">
+	<channel>
+		<generator>NFE/1.0</generator>
+		<title>Spring Framework - Google News</title>
+		<link>http://news.google.com/news?hl=en&amp;pz=1&amp;ned=us&amp;q=Spring+Framework&amp;num=50
+		</link>
+		<language>en-US</language>
+		<webMaster>news-feedback@google.com</webMaster>
+		<copyright>&amp;copy;2016 Google</copyright>
+		<pubDate>Mon, 24 Oct 2016 18:05:25 GMT</pubDate>
+		<lastBuildDate>Mon, 24 Oct 2016 18:05:25 GMT</lastBuildDate>
+		<image>
+			<title>Spring Framework - Google News</title>
+			<url>https://ssl.gstatic.com/news-static/img/logo/en_us/news.gif
+			</url>
+			<link>http://news.google.com/news?hl=en&amp;pz=1&amp;ned=us&amp;q=Spring+Framework&amp;num=50
+			</link>
+		</image>
+		<item>
+			<title>Functional Reactive Endpoints With Spring Framework 5.0
+				[Video] - DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNFF2ZUfcbdXP72sMP4RS3vtJSppXA&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779238549705&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/functional-reactive-endpoints-with-spring-framewor
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/functional-reactive-endpoints-with-spring-framewor
+			</guid>
+			<pubDate>Tue, 11 Oct 2016 04:34:42 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFF2ZUfcbdXP72sMP4RS3vtJSppXA&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779238549705&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/functional-reactive-endpoints-with-spring-framewor&quot;&gt;&lt;b&gt;Functional
+				Reactive Endpoints With &lt;b&gt;Spring Framework&lt;/b&gt; 5.0
+				[Video]&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;We&amp;#39;re going to have little ado and
+				cut right to the chase. With &lt;b&gt;Spring Framework&lt;/b&gt;
+				5.0&amp;#39;s release, one of the cool new features is functional
+				reactive endpoints. Sit down, settle in, and watch as we spend the
+				next 30 minutes detailing how they work and
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dFmRPfDfrJMdKtM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Pivotal Releases Versions 1.3.8 and 1.4.1 of Spring Boot -
+				InfoQ.com</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNHfU31ewn38J5ZyHqfPVPcQd8fJmw&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://www.infoq.com/news/2016/10/spring-releases-boot
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://www.infoq.com/news/2016/10/spring-releases-boot
+			</guid>
+			<pubDate>Mon, 10 Oct 2016 17:01:58 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHfU31ewn38J5ZyHqfPVPcQd8fJmw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.infoq.com/news/2016/10/spring-releases-boot&quot;&gt;&lt;b&gt;Pivotal
+				Releases Versions 1.3.8 and 1.4.1 of &lt;b&gt;Spring&lt;/b&gt;
+				Boot&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;InfoQ.com&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Path Forward. The Spring Boot team plans a
+				version 1.5 release by the end of 2016 that will include pull
+				requests that couldn&amp;#39;t be completed before version 1.4.
+				Spring Boot 2.0 is planned to be fully integrated with
+				&lt;b&gt;Spring Framework&lt;/b&gt; 5 and will require
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=d859wt9AjZ5Q0HM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Spring Boot Application Live Reload (Hot Swap) With Intellij
+				IDEA - DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNF7Louv_upfDjf694k5rRW2taAnyg&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/spring-boot-application-live-reload-hot-swap-with
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/spring-boot-application-live-reload-hot-swap-with
+			</guid>
+			<pubDate>Mon, 24 Oct 2016 09:36:34 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNF7Louv_upfDjf694k5rRW2taAnyg&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/spring-boot-application-live-reload-hot-swap-with&quot;&gt;&lt;img
+				src=&quot;//t3.gstatic.com/images?q=tbn:ANd9GcS9x__tyfgcI__frpVUSozXbCkXVcEEn8Z1cvZOtvyuWEzpDyEb-GcScGRby5Hq1V12sbwkJtis&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNF7Louv_upfDjf694k5rRW2taAnyg&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/spring-boot-application-live-reload-hot-swap-with&quot;&gt;&lt;b&gt;&lt;b&gt;Spring&lt;/b&gt;
+				Boot Application Live Reload (Hot Swap) With Intellij
+				IDEA&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;While developing &lt;b&gt;Spring&lt;/b&gt;
+				Boot Applications using Intellij IDEA, it was so annoying to restart
+				the &lt;b&gt;Spring&lt;/b&gt; Boot app after each and every change.
+				&lt;b&gt;Spring&lt;/b&gt; Boot provides live reload (hot swap) of
+				application out of the box using the following
+				dependency.&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dY-1FgooRpHgIhM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Why MVC 1.0 Is Important for Java EE 8 - DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNG65oT9vboKZkqwbYMA_SeswU1BLQ&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/why-mvc-10-is-important-for-java-ee-8
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/why-mvc-10-is-important-for-java-ee-8
+			</guid>
+			<pubDate>Wed, 12 Oct 2016 07:02:57 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNG65oT9vboKZkqwbYMA_SeswU1BLQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/why-mvc-10-is-important-for-java-ee-8&quot;&gt;&lt;b&gt;Why
+				MVC 1.0 Is Important for Java EE
+				8&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Especially if you are using Java EE
+				technologies like CDI, JAX-RS, Bean Validation, and friends. In this
+				case, including Spring in your project just to get the web framework
+				wouldn&amp;#39;t make any sense. But if you are typically using the
+				&lt;b&gt;Spring framework&lt;/b&gt;
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dpLWUedO-ibNqQM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Recycling to feature in Defra plan, says Coffey - Materials
+				Recycling World</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNFvKOQDrvU9YTsVUNPTdjCICg0c2g&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779251379934&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://www.mrw.co.uk/latest/recycling-to-feature-in-defra-plan-says-coffey/10014034.article
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://www.mrw.co.uk/latest/recycling-to-feature-in-defra-plan-says-coffey/10014034.article
+			</guid>
+			<pubDate>Mon, 24 Oct 2016 11:12:48 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFvKOQDrvU9YTsVUNPTdjCICg0c2g&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779251379934&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.mrw.co.uk/latest/recycling-to-feature-in-defra-plan-says-coffey/10014034.article&quot;&gt;&lt;img
+				src=&quot;//t0.gstatic.com/images?q=tbn:ANd9GcSwFM9AXBNK-waqyOjxqwuZWxZMVv0xa-vRRDZ90ind-HKmwAPyb0cPZqdj5SsL-nfEiA7q44kC&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;Materials Recycling
+				World&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFvKOQDrvU9YTsVUNPTdjCICg0c2g&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779251379934&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.mrw.co.uk/latest/recycling-to-feature-in-defra-plan-says-coffey/10014034.article&quot;&gt;&lt;b&gt;Recycling
+				to feature in Defra plan, says
+				Coffey&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;Materials Recycling
+				World&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Defra minister Lord Gardiner of Kimble
+				recently said the &lt;b&gt;framework&lt;/b&gt; would be published
+				“shortly”, with the full plan expected next year. The
+				&lt;b&gt;framework&lt;/b&gt; was originally scheduled for release in
+				&lt;b&gt;spring&lt;/b&gt; 2016 and the full plan expected this year,
+				but both &lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dqVt160GnbK_xOM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Java&apos;s Spring Framework gets a new competitor - InfoWorld
+			</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNGIcJ8d7uyv-StRRRtW34AF_Xl53A&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.infoworld.com/article/3086305/java/javas-spring-framework-gets-a-new-competitor.html
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.infoworld.com/article/3086305/java/javas-spring-framework-gets-a-new-competitor.html
+			</guid>
+			<pubDate>Tue, 21 Jun 2016 10:02:50 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNGIcJ8d7uyv-StRRRtW34AF_Xl53A&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.infoworld.com/article/3086305/java/javas-spring-framework-gets-a-new-competitor.html&quot;&gt;&lt;img
+				src=&quot;//t3.gstatic.com/images?q=tbn:ANd9GcRQoaNJI432Z06IDjMmjtYybVmNi7TA8OjFlgKo5wW71MY8reOLr-BTrMWPczzXbTdkY_eQ87KB&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;InfoWorld&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNGIcJ8d7uyv-StRRRtW34AF_Xl53A&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.infoworld.com/article/3086305/java/javas-spring-framework-gets-a-new-competitor.html&quot;&gt;&lt;b&gt;Java&amp;#39;s
+				&lt;b&gt;Spring Framework&lt;/b&gt; gets a new
+				competitor&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;InfoWorld&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Datamill, an open source framework that
+				leverages Java 8 and lambdas, is bringing functional programming to
+				Java-based web development. Positioned as an alternative to the
+				popular &lt;b&gt;Spring Framework&lt;/b&gt;, Datamill uses a
+				functional reactive style built
+				on&amp;nbsp;...&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dYN7gpyf-4YVGgM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>An Opinionless Comparison of Spring and Guice - DZone News
+			</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNFbKbT6soy9ffwa_rd7CbywUpbcIA&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/an-opinionless-comparison-of-spring-and-guice
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/an-opinionless-comparison-of-spring-and-guice
+			</guid>
+			<pubDate>Tue, 04 Oct 2016 10:40:40 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFbKbT6soy9ffwa_rd7CbywUpbcIA&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/an-opinionless-comparison-of-spring-and-guice&quot;&gt;&lt;b&gt;An
+				Opinionless Comparison of &lt;b&gt;Spring&lt;/b&gt; and
+				Guice&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Recently, I had to delve into the play
+				&lt;b&gt;framework&lt;/b&gt; for a particular microservice at work.
+				Now it is not exactly new, nor is Guice, nor DI, but coming from
+				&lt;b&gt;Spring&lt;/b&gt; world it was still kind of a shift in
+				approach. There is a lot of documentation comparing
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=deIRrCicsucuN6M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Spring Framework 5.0 and Reactive Spring - SpringOne Keynote -
+				InfoQ.com</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNHAi_XK3DWMDBEb7qBWOeqV2sAi_A&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779190079012&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://www.infoq.com/presentations/springone-2016-technical-keynote-4
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://www.infoq.com/presentations/springone-2016-technical-keynote-4
+			</guid>
+			<pubDate>Fri, 26 Aug 2016 17:00:32 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHAi_XK3DWMDBEb7qBWOeqV2sAi_A&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779190079012&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.infoq.com/presentations/springone-2016-technical-keynote-4&quot;&gt;&lt;img
+				src=&quot;//t0.gstatic.com/images?q=tbn:ANd9GcQ2DEDaODhPQHqAMC9_hvv6wpkDh6i2coLVVfpI-w1dMGnYux9ZoTldT9s1Y7-Zd2AUf8htNSSn&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;InfoQ.com&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHAi_XK3DWMDBEb7qBWOeqV2sAi_A&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779190079012&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.infoq.com/presentations/springone-2016-technical-keynote-4&quot;&gt;&lt;b&gt;&lt;b&gt;Spring
+				Framework&lt;/b&gt; 5.0 and Reactive Spring - SpringOne
+				Keynote&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;InfoQ.com&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Juergen Hoeller is co-founder of the
+				&lt;b&gt;Spring Framework&lt;/b&gt; open source project and has been
+				serving as the project lead and release manager for the core
+				framework since 2003. Rossen Stoyanchev is a &lt;b&gt;Spring
+				Framework&lt;/b&gt; Developer at Pivotal and a
+				committer&amp;nbsp;...&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dDEBn5B2_tDzCpM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>As Royals look to upgrade bullpen, former closer Greg Holland
+				remains on the market - Kansas City Star</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNHB7kx_ch62l1v9NWi8LltscOOdOA&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779251731101&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.kansascity.com/sports/mlb/kansas-city-royals/article110096872.html
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.kansascity.com/sports/mlb/kansas-city-royals/article110096872.html
+			</guid>
+			<pubDate>Mon, 24 Oct 2016 13:30:37 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHB7kx_ch62l1v9NWi8LltscOOdOA&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779251731101&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.kansascity.com/sports/mlb/kansas-city-royals/article110096872.html&quot;&gt;&lt;img
+				src=&quot;//t0.gstatic.com/images?q=tbn:ANd9GcTj4zUyEBZhQ705Mfboz1L5zTrjKflr9p3ZalbdK4dTuaPgLvXLQQZWMvQYDemhN0B-Qehjhwfe&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;Kansas City
+				Star&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHB7kx_ch62l1v9NWi8LltscOOdOA&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779251731101&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.kansascity.com/sports/mlb/kansas-city-royals/article110096872.html&quot;&gt;&lt;b&gt;As
+				Royals look to upgrade bullpen, former closer Greg Holland remains
+				on the market&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;Kansas City
+				Star&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Yet barring some unforeseen setback in his
+				recovery, he should be healthy when &lt;b&gt;spring&lt;/b&gt;
+				training begins in February. If the Royals are seriously ... The
+				Royals, of course, still believe they have the built-in
+				&lt;b&gt;framework&lt;/b&gt; for a strong bullpen. Closer Wade
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dnBm9i8LcxkwlgM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Modern Java Component Design With Spring Framework 4.3 [Video]
+				- DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNEx8dHs87ksKyT4JFu3s9eVctVrGA&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/springone-platform-2016-replay-modern-java-compone
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/springone-platform-2016-replay-modern-java-compone
+			</guid>
+			<pubDate>Thu, 15 Sep 2016 09:36:25 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNEx8dHs87ksKyT4JFu3s9eVctVrGA&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/springone-platform-2016-replay-modern-java-compone&quot;&gt;&lt;b&gt;Modern
+				Java Component Design With &lt;b&gt;Spring Framework&lt;/b&gt; 4.3
+				[Video]&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Spring&amp;#39;s annotation-based component
+				story is fine-tuned for source code readability as well as
+				consistency across an entire application&amp;#39;s codebase. This
+				session presents selected &lt;b&gt;Spring Framework&lt;/b&gt; 4
+				component model highlights, with a focus on the
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dgR5gbh8u0PouJM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Downers Grove School District 99 requests public engagement
+				ahead of facilities decisions - Suburban Life Publications</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNHBIU15DLWQ8sAXnhmv0DUh32XIKw&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.mysuburbanlife.com/2016/10/17/downers-grove-school-district-99-requests-public-engagement-ahead-of-facilities-decisions/a2phlht/
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.mysuburbanlife.com/2016/10/17/downers-grove-school-district-99-requests-public-engagement-ahead-of-facilities-decisions/a2phlht/
+			</guid>
+			<pubDate>Mon, 24 Oct 2016 17:06:36 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHBIU15DLWQ8sAXnhmv0DUh32XIKw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.mysuburbanlife.com/2016/10/17/downers-grove-school-district-99-requests-public-engagement-ahead-of-facilities-decisions/a2phlht/&quot;&gt;&lt;img
+				src=&quot;//t0.gstatic.com/images?q=tbn:ANd9GcTEXCuPjD7ahcfRMs5Lj__9AQEKFo0edo0AqrtYPRhFqcoN6y0_5Z1jns3b1qUqaEeUgoT5gYQ4&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;Suburban Life
+				Publications&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHBIU15DLWQ8sAXnhmv0DUh32XIKw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.mysuburbanlife.com/2016/10/17/downers-grove-school-district-99-requests-public-engagement-ahead-of-facilities-decisions/a2phlht/&quot;&gt;&lt;b&gt;Downers
+				Grove School District 99 requests public engagement ahead of
+				facilities decisions&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;Suburban Life
+				Publications&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;“We want to make sure we have a comprehensive
+				plan determined from feedback from the board and administration last
+				&lt;b&gt;spring&lt;/b&gt; so that we had a unified plan put together
+				with all the changes and details worked out as much as possible,” he
+				said. The district
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dOJfAmyrSCeTbuM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Brexit Secretary David Davis has been warned other states are
+				SPYING on him - Daily Mail</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNFV42uWq3eaI7pujBYl4Nql02V0Qw&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779251430159&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.dailymail.co.uk/news/article-3866676/They-watching-EU-Brexit-Secretary-David-Davis-warned-states-SPYING-UK-s-negotiating-strategy.html
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.dailymail.co.uk/news/article-3866676/They-watching-EU-Brexit-Secretary-David-Davis-warned-states-SPYING-UK-s-negotiating-strategy.html
+			</guid>
+			<pubDate>Mon, 24 Oct 2016 11:00:40 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFV42uWq3eaI7pujBYl4Nql02V0Qw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779251430159&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.dailymail.co.uk/news/article-3866676/They-watching-EU-Brexit-Secretary-David-Davis-warned-states-SPYING-UK-s-negotiating-strategy.html&quot;&gt;&lt;img
+				src=&quot;//t1.gstatic.com/images?q=tbn:ANd9GcT-xn6O9o5wvXgH9XJtZoaqqfgg63ICjEq35-Cww5FnXDcyrXWfwJFoph8gSRzVBU4jJWETQm_w&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;Daily
+				Mail&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFV42uWq3eaI7pujBYl4Nql02V0Qw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779251430159&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.dailymail.co.uk/news/article-3866676/They-watching-EU-Brexit-Secretary-David-Davis-warned-states-SPYING-UK-s-negotiating-strategy.html&quot;&gt;&lt;b&gt;Brexit
+				Secretary David Davis has been warned other states are SPYING on
+				him&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;Daily
+				Mail&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;The UK Government will start formal
+				negotiations over Brexit will start when Theresa May triggers
+				Article 50 next &lt;b&gt;spring&lt;/b&gt; but each side is eager to
+				gain an advantage before talks begin by discovering the opposite
+				number&amp;#39;s red lines and strategy. ... In
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dqAdUfF5GfJ3eIM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Handyman Hints: Deck board spacing matters - Standard
+				Freeholder</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNEIDmzDx4s8_Z-140WbrTcr55dqRg&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.standard-freeholder.com/2016/10/23/handyman-hints-deck-board-spacing-matters
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.standard-freeholder.com/2016/10/23/handyman-hints-deck-board-spacing-matters
+			</guid>
+			<pubDate>Sun, 23 Oct 2016 22:48:24 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNEIDmzDx4s8_Z-140WbrTcr55dqRg&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.standard-freeholder.com/2016/10/23/handyman-hints-deck-board-spacing-matters&quot;&gt;&lt;img
+				src=&quot;//t3.gstatic.com/images?q=tbn:ANd9GcScfrPf-Ujcp17t9tHOTFuo-WYYjvxvXIxqe5cAd30_q_VjCvMjkAnp3NEI4pcnNH0kGdmJDwM5&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;Standard
+				Freeholder&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNEIDmzDx4s8_Z-140WbrTcr55dqRg&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.standard-freeholder.com/2016/10/23/handyman-hints-deck-board-spacing-matters&quot;&gt;&lt;b&gt;Handyman
+				Hints: Deck board spacing
+				matters&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;Standard
+				Freeholder&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;I like to use the common nail strategy,
+				relying on the width of a 2 inch (summer), 3 inch
+				(&lt;b&gt;spring&lt;/b&gt;/fall), or 4 inch (sub-zero), size of nail
+				to determine board spacing at specific times of the year. The longer
+				the nail, the thicker the shaft, and
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dbq64ktsamACVpM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Spring Framework 4.3 Goes GA - DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNG0WEnkwINwtSGu_RbQnL53R1XbCw&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/spring-framework-43-goes-ga
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/spring-framework-43-goes-ga
+			</guid>
+			<pubDate>Mon, 13 Jun 2016 08:02:46 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNG0WEnkwINwtSGu_RbQnL53R1XbCw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/spring-framework-43-goes-ga&quot;&gt;&lt;b&gt;&lt;b&gt;Spring
+				Framework&lt;/b&gt; 4.3 Goes
+				GA&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;Spring Framework&lt;/b&gt; 4.3 is
+				designed as a straightforward upgrade for all 4.x users. We will
+				keep supporting the 4.2.x line until the end of this year; however,
+				we recommend an upgrade to 4.3 at your earliest convenience. As
+				previously hinted at, the 4.3.x
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dt8XHXYVpffCIgM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Here&apos;s why the Jets ultimately decided to bench Ryan
+				Fitzpatrick - CBSSports.com</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNG-Tan7AcUoeGgx0lEP-U6Vdn4MgQ&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779248910921&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.cbssports.com/nfl/news/heres-why-the-jets-ultimately-decided-to-bench-ryan-fitzpatrick/
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.cbssports.com/nfl/news/heres-why-the-jets-ultimately-decided-to-bench-ryan-fitzpatrick/
+			</guid>
+			<pubDate>Sun, 23 Oct 2016 12:28:00 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNG-Tan7AcUoeGgx0lEP-U6Vdn4MgQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779248910921&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.cbssports.com/nfl/news/heres-why-the-jets-ultimately-decided-to-bench-ryan-fitzpatrick/&quot;&gt;&lt;img
+				src=&quot;//t3.gstatic.com/images?q=tbn:ANd9GcSUnL2fa-bhuvy68LM2BT_jD-nz79fuW9NZ6RE1r8OdJABT4jmCeCkCXbos2Dlo8p68M-sGgeso&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;CBSSports.com&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNG-Tan7AcUoeGgx0lEP-U6Vdn4MgQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779248910921&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.cbssports.com/nfl/news/heres-why-the-jets-ultimately-decided-to-bench-ryan-fitzpatrick/&quot;&gt;&lt;b&gt;Here&amp;#39;s
+				why the Jets ultimately decided to bench Ryan
+				Fitzpatrick&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;CBSSports.com&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Fitzpatrick, who leads the NFL in turnovers
+				and was in jeopardy of losing his job for a few weeks (as previously
+				reported), struggled to make his reads and follow his keys, protect
+				the ball and stay within the &lt;b&gt;framework&lt;/b&gt; of the
+				offense, while forcing
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dCsnVMdNYpd6p_M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Afghanistan: UN report finds settlling water disputes key to
+				economic growth, avoiding conflict - UN News Centre</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNFW-HHfv-0MTgV_W4ldLTPzcTWyKQ&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779250808977&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.un.org/apps/news/story.asp?NewsID%3D55373
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.un.org/apps/news/story.asp?NewsID=55373
+			</guid>
+			<pubDate>Sun, 23 Oct 2016 19:07:30 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFW-HHfv-0MTgV_W4ldLTPzcTWyKQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779250808977&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.un.org/apps/news/story.asp?NewsID%3D55373&quot;&gt;&lt;img
+				src=&quot;//t0.gstatic.com/images?q=tbn:ANd9GcQRm69-3wUH-rVYTnQ0mZl9vGFpyJVplOJ8gg7otfAwVCG2K0Cl3yttnV3AohbAAzvS4JUzjgbn&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;UN News
+				Centre&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFW-HHfv-0MTgV_W4ldLTPzcTWyKQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779250808977&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.un.org/apps/news/story.asp?NewsID%3D55373&quot;&gt;&lt;b&gt;Afghanistan:
+				UN report finds settlling water disputes key to economic growth,
+				avoiding conflict&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;UN News
+				Centre&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Outlining the importance of water to the
+				country&amp;#39;s economy, the UNAMA report, titled Water Rights: An
+				Assessment of Afghanistan&amp;#39;s Legal
+				&lt;b&gt;Framework&lt;/b&gt; Governing Water for Agriculture report,
+				notes that formal and informal means are used to resolve water
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dlDYfiR2bS1_d-M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>AngularJS meets Spring Framework. The perfect Relationship! -
+				TheServerSide.com</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNGWC3oDvf5giEZfe0JjqlViUQIwMA&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.theserverside.com/news/thread.tss?thread_id%3D81769
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.theserverside.com/news/thread.tss?thread_id=81769
+			</guid>
+			<pubDate>Mon, 07 Mar 2016 16:21:16 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNGWC3oDvf5giEZfe0JjqlViUQIwMA&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.theserverside.com/news/thread.tss?thread_id%3D81769&quot;&gt;&lt;b&gt;AngularJS
+				meets &lt;b&gt;Spring Framework&lt;/b&gt;. The perfect
+				Relationship!&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;TheServerSide.com&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;HTML5, rich browser-based features, and the
+				single page application are extremely valuable tools for modern
+				development. Every application requires a server side (backend)
+				&lt;b&gt;framework&lt;/b&gt; besides the client side (frontend)
+				&lt;b&gt;framework&lt;/b&gt;. The server side can
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dmMWsKINbma8umM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Spring Framework 5 - Preview &amp; Roadmap - InfoQ.com</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNHUnbuEARPKQ9PnckxssOEd4NL54A&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779074189160&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://www.infoq.com/presentations/spring-framework-5
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://www.infoq.com/presentations/spring-framework-5
+			</guid>
+			<pubDate>Wed, 16 Dec 2015 19:18:45 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHUnbuEARPKQ9PnckxssOEd4NL54A&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779074189160&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.infoq.com/presentations/spring-framework-5&quot;&gt;&lt;img
+				src=&quot;//t0.gstatic.com/images?q=tbn:ANd9GcQcfb_x3GeocgPMwtg6hC1R2TJ3Qykvvp8zh1B72PouXMWsJIur2fBQhQ6sgnjI3RW_JVWmdS45&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;InfoQ.com&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHUnbuEARPKQ9PnckxssOEd4NL54A&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779074189160&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.infoq.com/presentations/spring-framework-5&quot;&gt;&lt;b&gt;&lt;b&gt;Spring
+				Framework&lt;/b&gt; 5 - Preview &amp;amp;
+				Roadmap&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;InfoQ.com&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Juergen Hoeller talks about the key themes in
+				&lt;b&gt;Spring&lt;/b&gt; 5, based on the current state of
+				development: going Java 8+ across the entire
+				&lt;b&gt;framework&lt;/b&gt; codebase, comprehensive support for JDK
+				9, a strong focus on HTTP/2, and first-class support for
+				&lt;b&gt;Spring&lt;/b&gt;-style&amp;nbsp;...&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dCaXShTwL5l8B9M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Hadoop Word Count Program in Scala - DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNGGrJCuE79d9Hi-TXAbVidZPKQ0dw&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779237890532&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/hadoop-word-count-program-innbspscala
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/hadoop-word-count-program-innbspscala
+			</guid>
+			<pubDate>Mon, 10 Oct 2016 07:35:37 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNGGrJCuE79d9Hi-TXAbVidZPKQ0dw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779237890532&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/hadoop-word-count-program-innbspscala&quot;&gt;&lt;b&gt;Hadoop
+				Word Count Program in Scala&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;After its expansion to embrace complete MVC
+				&lt;b&gt;framework&lt;/b&gt;, &lt;b&gt;Spring&lt;/b&gt; kept on
+				evolving adopting changes and turned into a full-scale Java
+				&lt;b&gt;framework&lt;/b&gt; for Internet-facing applications,
+				offering software engineers a powerful toolkit for web application
+				development&amp;nbsp;...&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dsQzmCQg2ibPWAM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>IntelliJ Idea 2016.3 EAP: Polyglot Maven, Grails View,
+				Inspections, and More - DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNGotJL60dW0bhqDbRlVY1ExXQb3nQ&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779231207250&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/intellij-idea-20163-eap-polyglot-maven-grails-view
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/intellij-idea-20163-eap-polyglot-maven-grails-view
+			</guid>
+			<pubDate>Mon, 03 Oct 2016 07:39:15 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNGotJL60dW0bhqDbRlVY1ExXQb3nQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779231207250&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/intellij-idea-20163-eap-polyglot-maven-grails-view&quot;&gt;&lt;b&gt;IntelliJ
+				Idea 2016.3 EAP: Polyglot Maven, Grails View, Inspections, and
+				More&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;After its expansion to embrace complete MVC
+				&lt;b&gt;framework&lt;/b&gt;, &lt;b&gt;Spring&lt;/b&gt; kept on
+				evolving adopting changes and turned into a full-scale Java
+				&lt;b&gt;framework&lt;/b&gt; for Internet-facing applications,
+				offering software engineers a powerful toolkit for web application
+				development&amp;nbsp;...&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=d3z7ug5V6PJCY1M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Tunisian coalition party fights for women&apos;s rights with
+				gender violence bill - The Guardian</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNEoOD2SJBU_5wXY3i2tiyk4z9fOXw&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://www.theguardian.com/global-development/2016/oct/24/tunisia-gender-violence-bill-substance-progressive-image
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://www.theguardian.com/global-development/2016/oct/24/tunisia-gender-violence-bill-substance-progressive-image
+			</guid>
+			<pubDate>Mon, 24 Oct 2016 08:26:37 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNEoOD2SJBU_5wXY3i2tiyk4z9fOXw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.theguardian.com/global-development/2016/oct/24/tunisia-gender-violence-bill-substance-progressive-image&quot;&gt;&lt;img
+				src=&quot;//t1.gstatic.com/images?q=tbn:ANd9GcTefvQoyxFViCEdWhMCd1x0ogdHz704GepY9mYX887Ep7pSfIg-OWDm0xwqSY_ITpPRBRou_UCY&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;The
+				Guardian&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNEoOD2SJBU_5wXY3i2tiyk4z9fOXw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.theguardian.com/global-development/2016/oct/24/tunisia-gender-violence-bill-substance-progressive-image&quot;&gt;&lt;b&gt;Tunisian
+				coalition party fights for women&amp;#39;s rights with gender
+				violence bill&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;The
+				Guardian&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;The move, which followed a three-year
+				process, was overwhelmingly supported at Ennahdha&amp;#39;s congress
+				last &lt;b&gt;spring&lt;/b&gt;. The movement draws comparisons with
+				European Christian Democratic parties, saying its new label reflects
+				a forward-looking ... Amna Guellali
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dEcpSAheNYH80uM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>This Week in Spring: Spring Framework 4.3, jOOQ with Spring
+				Boot, and Yak-Shaving - DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNG0D4ih3Lih8zXCXzzziwB2pzWx4w&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/this-week-in-spring-june-14th-2016
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/this-week-in-spring-june-14th-2016
+			</guid>
+			<pubDate>Thu, 16 Jun 2016 13:55:54 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNG0D4ih3Lih8zXCXzzziwB2pzWx4w&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/this-week-in-spring-june-14th-2016&quot;&gt;&lt;b&gt;This
+				Week in Spring: &lt;b&gt;Spring Framework&lt;/b&gt; 4.3, jOOQ with
+				Spring Boot, and Yak-Shaving&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;Spring framework&lt;/b&gt; 4.3,
+				packed with all sorts of niceties, is now available. This release
+				provides all sorts of cool updates to various libraries (Hibernate
+				ORM, Jackson, Netty, Undertow, Tomcat) and supports two features
+				I&amp;#39;m quite excited about: auto
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dtabjrwdqlhLH8M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>High school theater preview: Pickerington North aims to make
+				Pippin a Broadway-inspired circus featuring student talents -
+				Columbus Dispatch (blog)</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNGnEH3V_YepjOSJnVGOMkFZMloxrw&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.dispatch.com/content/blogs/theatre-talk/2016/10/high-school-theater-preview-pippin.html
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.dispatch.com/content/blogs/theatre-talk/2016/10/high-school-theater-preview-pippin.html
+			</guid>
+			<pubDate>Sun, 23 Oct 2016 20:22:38 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNGnEH3V_YepjOSJnVGOMkFZMloxrw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.dispatch.com/content/blogs/theatre-talk/2016/10/high-school-theater-preview-pippin.html&quot;&gt;&lt;img
+				src=&quot;//t1.gstatic.com/images?q=tbn:ANd9GcR61jeqbv7LceTlxps-tPkXp2wXbXD_mpZfOtLxjtPu40jfj0pO_lkIKwC52VXXWxYQ_Ojpdfzk&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;Columbus Dispatch
+				(blog)&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNGnEH3V_YepjOSJnVGOMkFZMloxrw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.dispatch.com/content/blogs/theatre-talk/2016/10/high-school-theater-preview-pippin.html&quot;&gt;&lt;b&gt;High
+				school theater preview: Pickerington North aims to make Pippin a
+				Broadway-inspired circus featuring student
+				talents&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;Columbus Dispatch
+				(blog)&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;The school aims to stage the Stephen Schwartz
+				musical, about the coming of age of a European prince, in the style
+				of the recent Broadway revival of Pippin, which added a circus
+				&lt;b&gt;framework&lt;/b&gt; with aerials and gymnastics to the
+				already-significant demands of
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dG92yj-RjOlF34M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Updated Spring 5.0 Roadmap and Reactive Story Presented at
+				SpringOne - InfoQ.com</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNF-B6nwWZURVsPpbo4XejIOEOY2yw&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://www.infoq.com/news/2016/08/spring5-m1
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://www.infoq.com/news/2016/08/spring5-m1
+			</guid>
+			<pubDate>Mon, 08 Aug 2016 13:41:18 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNF-B6nwWZURVsPpbo4XejIOEOY2yw&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.infoq.com/news/2016/08/spring5-m1&quot;&gt;&lt;b&gt;Updated
+				&lt;b&gt;Spring&lt;/b&gt; 5.0 Roadmap and Reactive Story Presented
+				at SpringOne&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;InfoQ.com&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;Spring Framework&lt;/b&gt; 5.0 is
+				also progressing with the first milestone release coming out in July
+				of this year, and a release candidate expected around December. A GA
+				release will then follow around Q1 2017. Spring 5.0 will see a major
+				baseline update
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dF7Uqj-ME8-QtWM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Alberta justice minister heading to Colorado for pot
+				legalization research - CBC.ca</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNHnichKxMVZ5a6OEJrwXeFPZJwlww&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779245334409&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.cbc.ca/news/canada/edmonton/alberta-justice-minister-heading-to-colorado-for-pot-legalization-research-1.3811063
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.cbc.ca/news/canada/edmonton/alberta-justice-minister-heading-to-colorado-for-pot-legalization-research-1.3811063
+			</guid>
+			<pubDate>Wed, 19 Oct 2016 00:04:22 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHnichKxMVZ5a6OEJrwXeFPZJwlww&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779245334409&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.cbc.ca/news/canada/edmonton/alberta-justice-minister-heading-to-colorado-for-pot-legalization-research-1.3811063&quot;&gt;&lt;img
+				src=&quot;//t3.gstatic.com/images?q=tbn:ANd9GcTQm3-IC3ImReVHO9PT0-BOtAzzAXkZgD9pO2eDozGovO6quK25ncUG4r554xe2vHru6Q8YihJ_&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;CBC.ca&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHnichKxMVZ5a6OEJrwXeFPZJwlww&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779245334409&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.cbc.ca/news/canada/edmonton/alberta-justice-minister-heading-to-colorado-for-pot-legalization-research-1.3811063&quot;&gt;&lt;b&gt;Alberta
+				justice minister heading to Colorado for pot legalization
+				research&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;CBC.ca&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Alberta&amp;#39;s justice minister is
+				travelling to Colorado Thursday to talk to officials about how they
+				dealt with the legalization of marijuana in their state. During her
+				three-day visit, Kathleen Ganley plans to meet with the
+				state&amp;#39;s attorney general
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dQZV6pv3haZ2vzM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Ready Your Java 8 Reactive Apps Now, Reactor 3.0 GA Is Out! -
+				DZone News</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNEIjXLB_wJ7uhq4xWjJWJ2-u-s61g&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://dzone.com/articles/ready-your-java-8-reactive-apps-now-reactor-30-ga-1
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://dzone.com/articles/ready-your-java-8-reactive-apps-now-reactor-30-ga-1
+			</guid>
+			<pubDate>Thu, 29 Sep 2016 15:33:45 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNEIjXLB_wJ7uhq4xWjJWJ2-u-s61g&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://dzone.com/articles/ready-your-java-8-reactive-apps-now-reactor-30-ga-1&quot;&gt;&lt;b&gt;Ready
+				Your Java 8 Reactive Apps Now, Reactor 3.0 GA Is
+				Out!&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;DZone
+				News&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;Spring Framework&lt;/b&gt; 5 uses
+				Reactor 3 to build and eventually expose a complete reactive story.
+				Its design relies on an extensible execution model that favors event
+				processing colocation. Typically, Reactor will be jumping threads
+				between event flow
+				stages&amp;nbsp;...&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dey0Lwibz3kCI3M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Art museum to close from May 2017 until spring 2020 - The
+				Herald-Times (subscription)</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNFRBQPkY94lwMq5lLjCdpoHR60PsQ&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779246580134&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.heraldtimesonline.com/news/local/art-museum-to-close-from-may-until-spring/article_3a47fe82-63c3-5e63-bee3-c1abe93488b6.html
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.heraldtimesonline.com/news/local/art-museum-to-close-from-may-until-spring/article_3a47fe82-63c3-5e63-bee3-c1abe93488b6.html
+			</guid>
+			<pubDate>Wed, 19 Oct 2016 18:49:54 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFRBQPkY94lwMq5lLjCdpoHR60PsQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779246580134&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.heraldtimesonline.com/news/local/art-museum-to-close-from-may-until-spring/article_3a47fe82-63c3-5e63-bee3-c1abe93488b6.html&quot;&gt;&lt;img
+				src=&quot;//t1.gstatic.com/images?q=tbn:ANd9GcQY0VgcriYRfTBBSSxahlNY_WonCsajM-4m3QKQLpCsrmInTdld6XDc_0RG2qDGGGvGCAzEjjHQ&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;The Herald-Times
+				(subscription)&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFRBQPkY94lwMq5lLjCdpoHR60PsQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779246580134&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.heraldtimesonline.com/news/local/art-museum-to-close-from-may-until-spring/article_3a47fe82-63c3-5e63-bee3-c1abe93488b6.html&quot;&gt;&lt;b&gt;Art
+				museum to close from May 2017 until &lt;b&gt;spring&lt;/b&gt;
+				2020&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;The Herald-Times
+				(subscription)&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Initially, plans were to find what work could
+				be done within the &lt;b&gt;framework&lt;/b&gt; of the budget. The
+				project was approved by the university&amp;#39;s board of trustees
+				earlier this month. &amp;quot;Now we&amp;#39;re in the more
+				intensive design phase, and we&amp;#39;re beginning to really
+				&lt;b&gt;...&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=d8p82cPRyawpbFM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Spring Releases Version 1.1 Statemachine Framework - InfoQ.com
+			</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNHRmP7VM2_Y4XH-pnyozAeh9HUsag&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://www.infoq.com/news/2016/06/Spring-Releases-Statemachine
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://www.infoq.com/news/2016/06/Spring-Releases-Statemachine
+			</guid>
+			<pubDate>Sun, 05 Jun 2016 22:00:32 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHRmP7VM2_Y4XH-pnyozAeh9HUsag&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://www.infoq.com/news/2016/06/Spring-Releases-Statemachine&quot;&gt;&lt;b&gt;&lt;b&gt;Spring&lt;/b&gt;
+				Releases Version 1.1 Statemachine
+				&lt;b&gt;Framework&lt;/b&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;InfoQ.com&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;According to the Spring Statemachine website,
+				Spring Statemachine “is a framework for application developers to
+				use state machine concepts with Spring applications.” Statemachine
+				includes all of the usual core &lt;b&gt;Spring framework&lt;/b&gt;
+				components such as&amp;nbsp;...&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dKuJXO12r0hby5M&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>Datamill Offers Spring Alternative - ADT Magazine</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNHZRW184X74OvpfpsxMgN2403NhfQ&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=https://adtmag.com/articles/2016/06/22/datamill-spring-alternative.aspx
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=https://adtmag.com/articles/2016/06/22/datamill-spring-alternative.aspx
+			</guid>
+			<pubDate>Wed, 22 Jun 2016 17:01:17 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHZRW184X74OvpfpsxMgN2403NhfQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://adtmag.com/articles/2016/06/22/datamill-spring-alternative.aspx&quot;&gt;&lt;img
+				src=&quot;//t1.gstatic.com/images?q=tbn:ANd9GcTkIO1Vtc4I8jUdKhVDCL6J7fLy1Rjg7uPlze4pTUkgT7iSVu9bkIUpgTD-r0m6ZlUoUwmnThaH&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;ADT
+				Magazine&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNHZRW184X74OvpfpsxMgN2403NhfQ&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=https://adtmag.com/articles/2016/06/22/datamill-spring-alternative.aspx&quot;&gt;&lt;b&gt;Datamill
+				Offers &lt;b&gt;Spring&lt;/b&gt;
+				Alternative&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;ADT
+				Magazine&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;Datamill, an open-source Java framework for
+				Web applications that uses functional reactive programming (FRP),
+				has emerged as an alternative to the &lt;b&gt;Spring
+				Framework&lt;/b&gt;. FRP is a model of programming with asynchronous
+				data streams (reactive&amp;nbsp;...&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=dp1oBfNLqlevhpM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<item>
+			<title>DSS Board Approves Framework for Investigation Into
+				Toddler&apos;s Death - Southern Pines Pilot</title>
+			<link>http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=us&amp;usg=AFQjCNFhn90v3F50P-O2h_U4-Q_wHz_WoA&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52779246771963&amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;url=http://www.thepilot.com/news/dss-board-approves-framework-for-investigation-into-toddler-s-death/article_bbf0e216-9654-11e6-8303-27e9766074f9.html
+			</link>
+			<guid isPermaLink="false">tag:news.google.com,2005:cluster=http://www.thepilot.com/news/dss-board-approves-framework-for-investigation-into-toddler-s-death/article_bbf0e216-9654-11e6-8303-27e9766074f9.html
+			</guid>
+			<pubDate>Thu, 20 Oct 2016 00:00:09 GMT</pubDate>
+			<description>&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot;
+				cellspacing=&quot;7&quot;
+				style=&quot;vertical-align:top;&quot;&gt;&lt;tr&gt;&lt;td
+				width=&quot;80&quot; align=&quot;center&quot;
+				valign=&quot;top&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFhn90v3F50P-O2h_U4-Q_wHz_WoA&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779246771963&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.thepilot.com/news/dss-board-approves-framework-for-investigation-into-toddler-s-death/article_bbf0e216-9654-11e6-8303-27e9766074f9.html&quot;&gt;&lt;img
+				src=&quot;//t1.gstatic.com/images?q=tbn:ANd9GcRoWvai2taNJ43_ZffMsqsdEvsujtywAa1SHnAuD9RGUnMQzhGo-5QRALjPr12p9f5EcWYdcgzI&quot;
+				alt=&quot;&quot; border=&quot;1&quot; width=&quot;80&quot;
+				height=&quot;80&quot;&gt;&lt;br&gt;&lt;font
+				size=&quot;-2&quot;&gt;Southern Pines
+				Pilot&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td
+				valign=&quot;top&quot; class=&quot;j&quot;&gt;&lt;font
+				style=&quot;font-size:85%;font-family:arial,sans-serif&quot;&gt;&lt;br&gt;&lt;div
+				style=&quot;padding-top:0.8em;&quot;&gt;&lt;img alt=&quot;&quot;
+				height=&quot;1&quot; width=&quot;1&quot;&gt;&lt;/div&gt;&lt;div
+				class=&quot;lh&quot;&gt;&lt;a
+				href=&quot;http://news.google.com/news/url?sa=t&amp;amp;fd=R&amp;amp;ct2=us&amp;amp;usg=AFQjCNFhn90v3F50P-O2h_U4-Q_wHz_WoA&amp;amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;amp;cid=52779246771963&amp;amp;ei=ZE0OWOC4Noav3QH46q_4DA&amp;amp;url=http://www.thepilot.com/news/dss-board-approves-framework-for-investigation-into-toddler-s-death/article_bbf0e216-9654-11e6-8303-27e9766074f9.html&quot;&gt;&lt;b&gt;DSS
+				Board Approves &lt;b&gt;Framework&lt;/b&gt; for Investigation Into
+				Toddler&amp;#39;s Death&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;&lt;b&gt;&lt;font
+				color=&quot;#6f6f6f&quot;&gt;Southern Pines
+				Pilot&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;&gt;The county social services board on Wednesday
+				afternoon unanimously approved the &lt;b&gt;framework&lt;/b&gt; for
+				a second investigation into how the agency handled the case of
+				toddler who drowned this &lt;b&gt;spring&lt;/b&gt;, four months
+				after being returned to his mother.&lt;/font&gt;&lt;br&gt;&lt;font
+				size=&quot;-1&quot;
+				class=&quot;p&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;font
+				class=&quot;p&quot; size=&quot;-1&quot;&gt;&lt;a class=&quot;p&quot;
+				href=&quot;http://news.google.com/news/more?ncl=d886CfM8Sre8TzM&amp;amp;authuser=0&amp;amp;ned=us&quot;&gt;&lt;nobr&gt;&lt;b&gt;and
+				more&amp;nbsp;&amp;raquo;&lt;/b&gt;&lt;/nobr&gt;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			</description>
+		</item>
+		<description>Google News</description>
+	</channel>
+</rss>
