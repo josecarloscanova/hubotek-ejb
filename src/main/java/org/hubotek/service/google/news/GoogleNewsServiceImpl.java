@@ -5,6 +5,9 @@ import java.net.URLEncoder;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
+import org.hubotek.model.rss.RssDocument;
+import org.hubotek.service.ejb.HubDocumentService;
+import org.hubotek.service.ejb.document.HubDocumentType;
 import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.HttpRequestProcessor;
 import org.hubotek.service.http.RequestType;
@@ -25,9 +28,12 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	@Inject
 	GoogleNewsUrlBuilder googleNewsUrlBuilder; 
 	
+	@Inject
+	HubDocumentService hubDocumentService;
+	
 	@Override
 	public String processRequest() {
-		return httpRequestProcessor.processRequest(getDefaultUrl(), new HttpRequestParameters(), RequestType.GET);
+		return  httpRequestProcessor.processRequest(getDefaultUrl(), new HttpRequestParameters(), RequestType.GET);
 	}
 	
 	@Override

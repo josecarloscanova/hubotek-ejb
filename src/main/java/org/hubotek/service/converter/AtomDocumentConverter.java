@@ -5,10 +5,10 @@ import org.hubotek.HubotekException;
 import org.hubotek.model.atom.AtomDocument;
 import org.hubotek.model.atom.AtomDocumentBuilder;
 
-public class AtomDocumentConverter implements DocumentConverter<AtomDocument>{
+public class AtomDocumentConverter implements DocumentConverter{
 
 	@Override
-	public AtomDocument convert(String xmlString) {
+	public  AtomDocument convert(String xmlString) {
 		try { 
 				return new AtomDocumentBuilder().withDocument(generateDocumentFromString(xmlString)).build();
 		}catch (Exception ex)

@@ -15,6 +15,7 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> {
 	
 	@Override
 	public void deleteAll() {
+		persistenceService.delete(RssDocument.class);
 	}
 
 	@Override

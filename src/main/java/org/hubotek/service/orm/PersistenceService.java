@@ -140,7 +140,7 @@ public class PersistenceService {
 	}
 
 
-	public Query createNativeQuery(String sqlString, Class resultClass) {
+	public Query createNativeQuery(String sqlString, Class<?> resultClass) {
 		return entityManager.createNativeQuery(sqlString, resultClass);
 	}
 

@@ -3,8 +3,9 @@ package org.hubotek.service.ejb;
 import org.hubotek.model.HubDocument;
 import org.hubotek.service.ejb.document.HubDocumentType;
 
-public interface HubDocumentService <T extends HubDocument>  extends LocalService{
+@FunctionalInterface
+public interface HubDocumentService  extends LocalService{
 
-	T requestDocumentFromUrl(String uri , HubDocumentType documentType);
+	HubDocument requestDocumentFromUrl(String uri , HubDocumentType documentType);
 	
 }

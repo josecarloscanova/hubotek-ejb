@@ -9,13 +9,12 @@ import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 
 @FunctionalInterface
-public interface DocumentConverter<T extends HubDocument> extends Converter<T , String> {
+public interface DocumentConverter extends Converter<HubDocument , String> {
 
 	default Document generateDocumentFromString(String xmlString) throws Exception
 	{ 
 		InputSource source = new InputSource(new StringReader(xmlString));
-		DomParser parser = new DomParser();
-		return parser.parseInput(source);
+		return  new DomParser().parseInput(source);
 	}
 	
 }

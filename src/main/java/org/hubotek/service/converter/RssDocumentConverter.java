@@ -5,7 +5,7 @@ import org.hubotek.HubotekException;
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.model.rss.RssDocumentBuilder;
 
-public class RssDocumentConverter implements DocumentConverter<RssDocument>{
+public class RssDocumentConverter implements DocumentConverter{
 
 	@Override
 	public RssDocument convert(String xmlString) {

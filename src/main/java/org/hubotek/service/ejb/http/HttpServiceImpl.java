@@ -22,7 +22,6 @@ public class HttpServiceImpl implements HttpService {
 		return doRequest(url , new HttpRequestParameters() , RequestType.GET);
 	}
 
-
 	@Override
 	public String doRequest(String url, RequestType requestType) {
 		return doRequest(url , new HttpRequestParameters() , requestType);

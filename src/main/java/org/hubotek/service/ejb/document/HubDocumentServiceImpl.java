@@ -11,22 +11,15 @@ import org.hubotek.service.http.HttpRequestProcessor;
 import org.hubotek.service.http.RequestType;
 
 @Stateless
-public class HubDocumentServiceImpl  <T extends HubDocument> implements HubDocumentService<T> {
-
+public class HubDocumentServiceImpl  implements HubDocumentService {
 
 	@Inject
 	private HttpRequestProcessor httpRequestProcessor;
 
 	@Override
-	public T requestDocumentFromUrl(String uri, HubDocumentType documentType) {
+	public  HubDocument requestDocumentFromUrl(String uri, HubDocumentType documentType) {
 		String xmlString = httpRequestProcessor.processRequest(uri, new HttpRequestParameters(), RequestType.GET);
-		return prepareDocument (xmlString , documentType);
-	}
-
-	private T prepareDocument(String xmlString , HubDocumentType documentType)
-	{ 
-		T hubDocument = new HubDocumentConverter<T>(documentType).convert(xmlString);
-		return hubDocument;
+		return new HubDocumentConverter(documentType).convert(xmlString);
 	}
 
 }

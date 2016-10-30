@@ -2,29 +2,30 @@ package org.hubotek.service.converter;
 
 import org.hubotek.Converter;
 import org.hubotek.model.HubDocument;
+import org.hubotek.model.atom.AtomDocument;
 import org.hubotek.service.ejb.document.HubDocumentType;
 
-public class HubDocumentConverter<T extends HubDocument> implements Converter<T,String> {
+public class HubDocumentConverter implements Converter<HubDocument,String> {
 
 	private HubDocumentType type; 
+	private Converter <HubDocument,String> ac = (o) -> (new AtomDocumentConverter().convert(o));
+	private Converter <HubDocument,String> rc = (o) -> (new RssDocumentConverter().convert(o));
 	
 	public HubDocumentConverter(HubDocumentType type) { 
 		this.type = type;
 	}
 	
-	
-	@SuppressWarnings("unchecked")
 	@Override
-	public T convert(String origin) {
-		T hubDocument = null; 
+	public HubDocument convert(String origin) {
+		HubDocument hubDocument = null; 
 		switch(type){ 
 		case ATOM: 
-			hubDocument = (T)new AtomDocumentConverter().convert(origin);
+			hubDocument =   ac.convert(origin);
 			break;
 		case JSON:
 			break;
 		case RSS:
-			hubDocument = (T)new RssDocumentConverter().convert(origin); 
+			hubDocument = rc.convert(origin); 
 			break;
 		default:
 			break;
