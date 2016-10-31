@@ -7,9 +7,7 @@ import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import org.hubotek.model.rss.RssDocument;
 import org.hubotek.service.ejb.HubDocumentService;
-import org.hubotek.service.ejb.document.HubDocumentType;
 import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.HttpRequestProcessor;
 import org.hubotek.service.http.RequestType;
@@ -26,9 +24,6 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 
 	@Inject @Named("httpRequestProcessor")
 	HttpRequestProcessor httpRequestProcessor; 
-	
-	@Inject @Named("googleNewsUrlBuilder")
-	GoogleNewsUrlBuilder googleNewsUrlBuilder; 
 	
 	@EJB
 	HubDocumentService hubDocumentService;

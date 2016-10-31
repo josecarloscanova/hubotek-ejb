@@ -1,15 +1,16 @@
 package org.hubotek.service.http;
 
-import java.util.Map;
 import java.util.EnumMap;
+import java.util.Map;
+
 import javax.inject.Named;
-import org.hubotek.service.Service;
+
 import org.apache.http.client.fluent.Request;
 import org.hubotek.service.HubotekServiceException;
 
 
 @Named("httpRequestProcessor")
-public class HttpRequestProcessor implements Service{
+public class HttpRequestProcessor implements HttpRequestProcessorService{
 
 	private static final Map <RequestType , RequestReference> requestMethodAdapter = new EnumMap<RequestType,RequestReference>(RequestType.class);
 
@@ -26,6 +27,7 @@ public class HttpRequestProcessor implements Service{
 	{ 
 	}
 	
+	@Override
 	public String processRequest(String url , HttpRequestParameters requestParameters , RequestType requestType)
 	{ 
 		// Execute a GET with timeout settings and return response content as String.

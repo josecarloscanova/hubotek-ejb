@@ -55,7 +55,6 @@ public class GoogleNewsUrlBuilder implements Builder<String>{
 		return paramList;
 	}
 	
-	
 	public String build()
 	{ 
 		StringBuilder sb = new StringBuilder();
