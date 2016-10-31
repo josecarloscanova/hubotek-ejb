@@ -2,7 +2,6 @@ package org.hubotek.service.converter;
 
 import org.hubotek.Converter;
 import org.hubotek.model.HubDocument;
-import org.hubotek.model.atom.AtomDocument;
 import org.hubotek.service.ejb.document.HubDocumentType;
 
 public class HubDocumentConverter implements Converter<HubDocument,String> {
