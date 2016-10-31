@@ -23,6 +23,31 @@
 			<artifactId>guava</artifactId>
 			<version>19.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/johnzon-core -->
+		<dependency>
+			<groupId>org.apache.johnzon</groupId>
+			<artifactId>johnzon-core</artifactId>
+			<version>0.9.5</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/johnzon-mapper -->
+		<dependency>
+			<groupId>org.apache.johnzon</groupId>
+			<artifactId>johnzon-mapper</artifactId>
+			<version>0.9.5</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/johnzon-jaxrs -->
+		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/johnzon-jsonb -->
+		<dependency>
+			<groupId>org.apache.johnzon</groupId>
+			<artifactId>johnzon-jsonb</artifactId>
+			<version>0.9.5</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/jsonb-api -->
+		<dependency>
+			<groupId>org.apache.johnzon</groupId>
+			<artifactId>jsonb-api</artifactId>
+			<version>0.9.5</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-core</artifactId>
@@ -100,31 +125,13 @@
 					<ejbVersion>3.1</ejbVersion>
 				</configuration>
 			</plugin>
-			<!-- <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<version>2.6</version>
-				<executions>
-					<execution>
-						<phase>validate</phase>
-						<goals>
-							<goal>copy</goal>
-						</goals>
-						<configuration>
-							<outputDirectory>${endorsed.dir}</outputDirectory>
-							<silent>true</silent>
-							<artifactItems>
-								<artifactItem>
-									<groupId>javax</groupId>
-									<artifactId>javaee-endorsed-api</artifactId>
-									<version>7.0</version>
-									<type>jar</type>
-								</artifactItem>
-							</artifactItems>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin> -->
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-dependency-plugin</artifactId> 
+				<version>2.6</version> <executions> <execution> <phase>validate</phase> <goals> 
+				<goal>copy</goal> </goals> <configuration> <outputDirectory>${endorsed.dir}</outputDirectory> 
+				<silent>true</silent> <artifactItems> <artifactItem> <groupId>javax</groupId> 
+				<artifactId>javaee-endorsed-api</artifactId> <version>7.0</version> <type>jar</type> 
+				</artifactItem> </artifactItems> </configuration> </execution> </executions> 
+				</plugin> -->
 		</plugins>
 	</build>
 	<dependencyManagement>
