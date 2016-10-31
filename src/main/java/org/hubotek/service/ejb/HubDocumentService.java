@@ -4,8 +4,8 @@ import org.hubotek.model.HubDocument;
 import org.hubotek.service.ejb.document.HubDocumentType;
 
 @FunctionalInterface
-public interface HubDocumentService  extends LocalService{
+public interface HubDocumentService extends LocalService{
 
-	HubDocument requestDocumentFromUrl(String uri , HubDocumentType documentType);
+	HubDocument processDocument(String xmlDocumentString , HubDocumentType documentType);
 	
 }
