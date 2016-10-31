@@ -8,7 +8,7 @@ import org.apache.http.client.fluent.Request;
 import org.hubotek.service.HubotekServiceException;
 
 
-@Named(value="httpRequestProcessor")
+@Named("httpRequestProcessor")
 public class HttpRequestProcessor implements Service{
 
 	private static final Map <RequestType , RequestReference> requestMethodAdapter = new EnumMap<RequestType,RequestReference>(RequestType.class);

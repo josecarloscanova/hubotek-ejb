@@ -22,10 +22,10 @@ public class HubDocumentConverter implements Converter<HubDocument,String> {
 		case ATOM: 
 			hubDocument =   ac.convert(origin);
 			break;
-		case JSON:
-			break;
 		case RSS:
 			hubDocument = rc.convert(origin); 
+			break;
+		case JSON:
 			break;
 		default:
 			break;

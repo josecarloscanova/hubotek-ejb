@@ -4,6 +4,7 @@ import javax.ejb.Stateless;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import org.hubotek.service.ejb.HttpService;
 import org.hubotek.service.http.HttpRequestParameters;
@@ -14,7 +15,7 @@ import org.hubotek.service.http.RequestType;
 @TransactionAttribute(TransactionAttributeType.SUPPORTS)
 public class HttpServiceImpl implements HttpService {
 
-	@Inject 
+	@Inject @Named(value="httpRequestProcessor")
 	HttpRequestProcessor requestProcessor; 
 
 	@Override

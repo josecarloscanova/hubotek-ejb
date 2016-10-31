@@ -10,7 +10,7 @@ import javax.inject.Named;
 
 import org.hubotek.Builder;
 
-@Named(value="googleNewsUrlBuilder")
+@Named("googleNewsUrlBuilder")
 public class GoogleNewsUrlBuilder implements Builder<String>{
 
 	private final String baseUrl = "https://news.google.com/news"; 

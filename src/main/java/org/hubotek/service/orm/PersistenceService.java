@@ -22,8 +22,8 @@ import org.nanotek.Base;
  * @author JoseCanova
  *
  */
-@Named(value="persistenceService")
-public class PersistenceService {
+@Named("persistenceService")
+public class PersistenceService{
 
 	@PersistenceContext
 	private EntityManager entityManager;

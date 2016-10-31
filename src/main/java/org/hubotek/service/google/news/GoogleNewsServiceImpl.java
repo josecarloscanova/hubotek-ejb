@@ -2,8 +2,10 @@ package org.hubotek.service.google.news;
 
 import java.net.URLEncoder;
 
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.service.ejb.HubDocumentService;
@@ -22,13 +24,13 @@ import org.hubotek.service.http.RequestType;
 public class GoogleNewsServiceImpl implements GoogleNewsService
 {
 
-	@Inject
+	@Inject @Named("httpRequestProcessor")
 	HttpRequestProcessor httpRequestProcessor; 
 	
-	@Inject
+	@Inject @Named("googleNewsUrlBuilder")
 	GoogleNewsUrlBuilder googleNewsUrlBuilder; 
 	
-	@Inject
+	@EJB
 	HubDocumentService hubDocumentService;
 	
 	@Override

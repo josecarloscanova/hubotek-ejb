@@ -2,6 +2,7 @@ package org.hubotek.service.ejb.document;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import org.hubotek.model.HubDocument;
 import org.hubotek.service.converter.HubDocumentConverter;
@@ -13,7 +14,7 @@ import org.hubotek.service.http.RequestType;
 @Stateless
 public class HubDocumentServiceImpl  implements HubDocumentService {
 
-	@Inject
+	@Inject  @Named("httpRequestProcessor")
 	private HttpRequestProcessor httpRequestProcessor;
 
 	@Override
