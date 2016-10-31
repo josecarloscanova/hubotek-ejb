@@ -16,7 +16,9 @@ public class GoogleNewsUrlBuilder implements Builder<String>{
 	private final String baseUrl = "https://news.google.com/news"; 
 	private EnumMap<GoogleNewsUrlParametersEnum,String> urlParameterMap;
 	
-	public GoogleNewsUrlBuilder(){}
+	public GoogleNewsUrlBuilder(){
+		prepare();
+	}
 	
 	public GoogleNewsUrlBuilder withParameter(GoogleNewsUrlParametersEnum name , String value)
 	{ 
