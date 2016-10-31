@@ -8,15 +8,15 @@ import javax.inject.Named;
 
 import org.hubotek.service.ejb.HttpService;
 import org.hubotek.service.http.HttpRequestParameters;
-import org.hubotek.service.http.HttpRequestProcessor;
 import org.hubotek.service.http.RequestType;
+import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
 
 @Stateless
 @TransactionAttribute(TransactionAttributeType.SUPPORTS)
 public class HttpServiceImpl implements HttpService {
 
 	@Inject @Named(value="httpRequestProcessor")
-	HttpRequestProcessor requestProcessor; 
+	HttpRequestProcessorServiceImpl requestProcessor; 
 
 	@Override
 	public String doRequest(String url) {

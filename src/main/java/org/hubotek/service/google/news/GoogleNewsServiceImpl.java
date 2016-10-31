@@ -9,8 +9,8 @@ import javax.inject.Named;
 
 import org.hubotek.service.ejb.HubDocumentService;
 import org.hubotek.service.http.HttpRequestParameters;
-import org.hubotek.service.http.HttpRequestProcessor;
 import org.hubotek.service.http.RequestType;
+import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
 
 
 /**
@@ -23,7 +23,7 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 {
 
 	@Inject @Named("httpRequestProcessor")
-	HttpRequestProcessor httpRequestProcessor; 
+	HttpRequestProcessorServiceImpl httpRequestProcessor; 
 	
 	@EJB
 	HubDocumentService hubDocumentService;

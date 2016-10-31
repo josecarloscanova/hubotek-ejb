@@ -1,4 +1,4 @@
-package org.hubotek.service.http;
+package org.hubotek.service.http.impl;
 
 import java.util.EnumMap;
 import java.util.Map;
@@ -7,10 +7,14 @@ import javax.inject.Named;
 
 import org.apache.http.client.fluent.Request;
 import org.hubotek.service.HubotekServiceException;
+import org.hubotek.service.http.HttpRequestParameters;
+import org.hubotek.service.http.HttpRequestProcessorService;
+import org.hubotek.service.http.RequestReference;
+import org.hubotek.service.http.RequestType;
 
 
 @Named("httpRequestProcessor")
-public class HttpRequestProcessor implements HttpRequestProcessorService{
+public class HttpRequestProcessorServiceImpl implements HttpRequestProcessorService{
 
 	private static final Map <RequestType , RequestReference> requestMethodAdapter = new EnumMap<RequestType,RequestReference>(RequestType.class);
 
@@ -23,7 +27,7 @@ public class HttpRequestProcessor implements HttpRequestProcessorService{
 		requestMethodAdapter.put(RequestType.DELETE, s ->  Request.Delete(s));
 	}
 
-	public HttpRequestProcessor()
+	public HttpRequestProcessorServiceImpl()
 	{ 
 	}
 	
