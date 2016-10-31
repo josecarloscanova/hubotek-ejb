@@ -2,11 +2,14 @@ package org.hubotek.service.google.news;
 
 import java.net.URLEncoder;
 
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+import org.hubotek.model.HubDocument;
+import org.hubotek.service.ejb.document.HubDocumentProvider;
 import org.hubotek.service.ejb.document.HubDocumentType;
 import org.hubotek.service.event.DocumentProcessingEvent;
 import org.hubotek.service.http.HttpRequestParameters;
@@ -29,6 +32,9 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	
 	@Inject
 	Event<DocumentProcessingEvent> event;
+	
+	@EJB 
+	HubDocumentProvider hubDocumentProvider;
 	
 	@Override
 	public String processRequest() {
@@ -92,6 +98,13 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.CODE, "all").withParameter(GoogleNewsUrlParametersEnum.TOPIC, "w").withParameter(GoogleNewsUrlParametersEnum.PZ , "1").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
 	}
 
+	public HubDocument processRequestSearchHub(String searchString)
+	{ 
+		String encodedString = URLEncoder.encode(searchString);
+		String documentString = httpRequestProcessor.processRequest( getSearchUrl(encodedString), new HttpRequestParameters(), RequestType.GET);
+		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
+	}
+	
 	private void fireEventDocumentProcessing(String documentString) {
 		DocumentProcessingEvent eventSource = new DocumentProcessingEvent();
 		eventSource.setDocumentToProcess(documentString);

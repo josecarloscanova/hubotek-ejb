@@ -11,6 +11,7 @@ import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.RequestType;
 import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
 
+@SuppressWarnings("serial")
 @Stateless
 @TransactionAttribute(TransactionAttributeType.SUPPORTS)
 public class HttpServiceImpl implements HttpService {

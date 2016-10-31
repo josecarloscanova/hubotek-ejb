@@ -1,5 +1,6 @@
 package org.hubotek.service.event;
 
+import javax.ejb.Asynchronous;
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.enterprise.event.Observes;
@@ -22,6 +23,7 @@ public class DocumentProcessingEventHandler implements DocumentProcessingHandler
 	@Inject
 	PersistenceService persistenceService;
 	
+	@Asynchronous
 	public void processXmlStringDocument(@Observes DocumentProcessingEvent documentProcessingEvent)
 	{ 
 		HubDocument document = hubDocumentService.processDocument(documentProcessingEvent.getDocumentToProcess(), documentProcessingEvent.getDocumentType());
