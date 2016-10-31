@@ -2,12 +2,13 @@ package org.hubotek.service.google.news;
 
 import java.net.URLEncoder;
 
-import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.enterprise.event.Event;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import org.hubotek.service.ejb.HubDocumentService;
+import org.hubotek.service.ejb.document.HubDocumentType;
+import org.hubotek.service.event.DocumentProcessingEvent;
 import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.RequestType;
 import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
@@ -18,6 +19,7 @@ import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
  * @author JoseCanova
  *
  */
+@SuppressWarnings("serial")
 @Stateless
 public class GoogleNewsServiceImpl implements GoogleNewsService
 {
@@ -25,34 +27,44 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	@Inject @Named("httpRequestProcessor")
 	HttpRequestProcessorServiceImpl httpRequestProcessor; 
 	
-	@EJB
-	HubDocumentService hubDocumentService;
+	@Inject
+	Event<DocumentProcessingEvent> event;
 	
 	@Override
 	public String processRequest() {
-		return  httpRequestProcessor.processRequest(getDefaultUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =  httpRequestProcessor.processRequest(getDefaultUrl(), new HttpRequestParameters(), RequestType.GET);
+		fireEventDocumentProcessing(documentString);
+		return documentString;
 	}
 	
 	@Override
 	public String processRequestTop() {
-		return httpRequestProcessor.processRequest(getTopUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =   httpRequestProcessor.processRequest(getTopUrl(), new HttpRequestParameters(), RequestType.GET);
+		fireEventDocumentProcessing(documentString);
+		return documentString;
 	}
 
 	@Override
 	public String processRequestEntertainement() {
-		return httpRequestProcessor.processRequest(getEntertaimentUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =  httpRequestProcessor.processRequest(getEntertaimentUrl(), new HttpRequestParameters(), RequestType.GET);
+		fireEventDocumentProcessing(documentString);
+		return documentString;
 	}
 	
 	@Override
 	public String processRequestWorld() {
-		return httpRequestProcessor.processRequest(getWorldUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =   httpRequestProcessor.processRequest(getWorldUrl(), new HttpRequestParameters(), RequestType.GET);
+		fireEventDocumentProcessing(documentString);
+		return documentString;
 	}
 	
 	@Override
 	public String processRequestSearch(String searchString)
 	{ 
 		String encodedString = URLEncoder.encode(searchString);
-		return httpRequestProcessor.processRequest( getSearchUrl(encodedString), new HttpRequestParameters(), RequestType.GET);
+		String documentString = httpRequestProcessor.processRequest( getSearchUrl(encodedString), new HttpRequestParameters(), RequestType.GET);
+		fireEventDocumentProcessing(documentString);
+		return documentString;
 	}
 	
 	private String getSearchUrl(String encodedString)
@@ -78,6 +90,13 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	private String getWorldUrl()
 	{ 
 		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.CODE, "all").withParameter(GoogleNewsUrlParametersEnum.TOPIC, "w").withParameter(GoogleNewsUrlParametersEnum.PZ , "1").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
+	}
+
+	private void fireEventDocumentProcessing(String documentString) {
+		DocumentProcessingEvent eventSource = new DocumentProcessingEvent();
+		eventSource.setDocumentToProcess(documentString);
+		eventSource.setDocumentType(HubDocumentType.RSS);
+		event.fire(eventSource);
 	}
 
 }

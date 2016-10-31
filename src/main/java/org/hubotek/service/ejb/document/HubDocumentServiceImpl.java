@@ -6,6 +6,7 @@ import org.hubotek.model.HubDocument;
 import org.hubotek.service.converter.HubDocumentConverter;
 import org.hubotek.service.ejb.HubDocumentService;
 
+@SuppressWarnings("serial")
 @Stateless
 public class HubDocumentServiceImpl  implements HubDocumentService {
 

@@ -1,5 +1,7 @@
 package org.hubotek.service;
 
-public interface Service {
+import java.io.Serializable;
+
+public interface Service extends Serializable{
 
 }
