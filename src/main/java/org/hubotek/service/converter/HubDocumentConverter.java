@@ -16,10 +16,11 @@ public class HubDocumentConverter implements Converter<HubDocument,String> {
 	
 	@Override
 	public HubDocument convert(String origin) {
+		
 		HubDocument hubDocument = null; 
 		switch(type){ 
 		case ATOM: 
-			hubDocument =   ac.convert(origin);
+			hubDocument = ac.convert(origin);
 			break;
 		case RSS:
 			hubDocument = rc.convert(origin); 

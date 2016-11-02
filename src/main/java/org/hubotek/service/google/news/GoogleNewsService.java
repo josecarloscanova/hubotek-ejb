@@ -5,15 +5,15 @@ import org.hubotek.service.ejb.LocalService;
 
 public interface GoogleNewsService extends LocalService{
 
-	String processRequest();
+	HubDocument processRequest();
 	
-	String processRequestTop(); 
+	HubDocument processRequestTop(); 
 	
-	String processRequestEntertainement();
+	HubDocument processRequestEntertainement();
 	
-	String processRequestWorld();
+	HubDocument processRequestWorld();
 	
-	String processRequestSearch(String searchString);
+	HubDocument processRequestSearch(String searchString);
 	
 	HubDocument processRequestSearchHub(String searchString);
 }

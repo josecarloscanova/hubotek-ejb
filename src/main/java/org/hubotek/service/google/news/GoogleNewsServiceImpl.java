@@ -37,40 +37,40 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	HubDocumentProvider hubDocumentProvider;
 	
 	@Override
-	public String processRequest() {
+	public HubDocument processRequest() {
 		String documentString =  httpRequestProcessor.processRequest(getDefaultUrl(), new HttpRequestParameters(), RequestType.GET);
 		fireEventDocumentProcessing(documentString);
-		return documentString;
+		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 	
 	@Override
-	public String processRequestTop() {
+	public HubDocument processRequestTop() {
 		String documentString =   httpRequestProcessor.processRequest(getTopUrl(), new HttpRequestParameters(), RequestType.GET);
 		fireEventDocumentProcessing(documentString);
-		return documentString;
+		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 
 	@Override
-	public String processRequestEntertainement() {
+	public HubDocument processRequestEntertainement() {
 		String documentString =  httpRequestProcessor.processRequest(getEntertaimentUrl(), new HttpRequestParameters(), RequestType.GET);
 		fireEventDocumentProcessing(documentString);
-		return documentString;
+		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 	
 	@Override
-	public String processRequestWorld() {
+	public HubDocument processRequestWorld() {
 		String documentString =   httpRequestProcessor.processRequest(getWorldUrl(), new HttpRequestParameters(), RequestType.GET);
 		fireEventDocumentProcessing(documentString);
-		return documentString;
+		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 	
 	@Override
-	public String processRequestSearch(String searchString)
+	public HubDocument processRequestSearch(String searchString)
 	{ 
 		String encodedString = URLEncoder.encode(searchString);
 		String documentString = httpRequestProcessor.processRequest( getSearchUrl(encodedString), new HttpRequestParameters(), RequestType.GET);
 		fireEventDocumentProcessing(documentString);
-		return documentString;
+		return  hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 	
 	private String getSearchUrl(String encodedString)

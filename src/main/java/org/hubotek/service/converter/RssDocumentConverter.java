@@ -11,10 +11,10 @@ public class RssDocumentConverter implements DocumentConverter{
 	public RssDocument convert(String xmlString) {
 		try { 
 			return new RssDocumentBuilder().withDocument(generateDocumentFromString(xmlString)).build();
-	}catch (Exception ex)
-	{ 
-		throw new HubotekException(ex);
-	}
+		}catch (Exception ex)
+		{ 
+			throw new HubotekException(ex);
+		}
 	}
 
 }

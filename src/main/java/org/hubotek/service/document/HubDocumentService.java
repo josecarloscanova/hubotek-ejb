@@ -1,10 +1,11 @@
-package org.hubotek.service.ejb;
+package org.hubotek.service.document;
 
 import org.hubotek.model.HubDocument;
+import org.hubotek.service.ejb.LocalService;
 import org.hubotek.service.ejb.document.HubDocumentType;
 
 @FunctionalInterface
-public interface HubDocumentService extends LocalService{
+public interface HubDocumentService{
 
 	HubDocument processDocument(String xmlDocumentString , HubDocumentType documentType);
 	

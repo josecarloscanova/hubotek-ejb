@@ -13,6 +13,7 @@ import org.hubotek.service.http.RequestReference;
 import org.hubotek.service.http.RequestType;
 
 
+@SuppressWarnings("serial")
 @Named("httpRequestProcessor")
 public class HttpRequestProcessorServiceImpl implements HttpRequestProcessorService{
 

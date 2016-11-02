@@ -1,5 +1,6 @@
 package org.hubotek.service.orm;
 
+import java.io.Serializable;
 import java.util.Map;
 
 import javax.inject.Named;
@@ -60,22 +61,22 @@ public class PersistenceService{
 	}
 
 
-	public <T> T find(Class<T> entityClass, Object primaryKey) {
+	public <T extends Base<I> , I extends Serializable> T find(Class<T> entityClass, I primaryKey) {
 		return entityManager.find(entityClass, primaryKey);
 	}
 
 
-	public <T> T find(Class<T> entityClass, Object primaryKey, Map<String, Object> properties) {
+	public <T extends Base<?>> T find(Class<T> entityClass, Object primaryKey, Map<String, Object> properties) {
 		return entityManager.find(entityClass, primaryKey, properties);
 	}
 
 
-	public <T> T find(Class<T> entityClass, Object primaryKey, LockModeType lockMode) {
+	public <T extends Base<?>> T find(Class<T> entityClass, Object primaryKey, LockModeType lockMode) {
 		return entityManager.find(entityClass, primaryKey, lockMode);
 	}
 
 
-	public <T> T find(Class<T> entityClass, Object primaryKey, LockModeType lockMode, Map<String, Object> properties) {
+	public <T extends Base<?>> T find(Class<T> entityClass, Object primaryKey, LockModeType lockMode, Map<String, Object> properties) {
 		return entityManager.find(entityClass, primaryKey, lockMode, properties);
 	}
 

@@ -1,13 +1,10 @@
-package org.hubotek.service.ejb.document;
-
-import javax.ejb.Stateless;
+package org.hubotek.service.document.impl;
 
 import org.hubotek.model.HubDocument;
 import org.hubotek.service.converter.HubDocumentConverter;
-import org.hubotek.service.ejb.HubDocumentService;
+import org.hubotek.service.document.HubDocumentService;
+import org.hubotek.service.ejb.document.HubDocumentType;
 
-@SuppressWarnings("serial")
-@Stateless
 public class HubDocumentServiceImpl  implements HubDocumentService {
 
 	@Override

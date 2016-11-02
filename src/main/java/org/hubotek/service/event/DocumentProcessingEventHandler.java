@@ -8,7 +8,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.hubotek.model.HubDocument;
-import org.hubotek.service.ejb.HubDocumentService;
+import org.hubotek.service.ejb.document.HubDocumentProvider;
 import org.hubotek.service.orm.PersistenceService;
 import org.nanotek.Base;
 
@@ -18,7 +18,7 @@ import org.nanotek.Base;
 public class DocumentProcessingEventHandler implements DocumentProcessingHandler {
 
 	@EJB
-	HubDocumentService hubDocumentService;
+	HubDocumentProvider hubDocumentProvider;
 	
 	@Inject
 	PersistenceService persistenceService;
@@ -26,7 +26,7 @@ public class DocumentProcessingEventHandler implements DocumentProcessingHandler
 	@Asynchronous
 	public void processXmlStringDocument(@Observes DocumentProcessingEvent documentProcessingEvent)
 	{ 
-		HubDocument document = hubDocumentService.processDocument(documentProcessingEvent.getDocumentToProcess(), documentProcessingEvent.getDocumentType());
+		HubDocument document = hubDocumentProvider.processDocument(documentProcessingEvent.getDocumentToProcess(), documentProcessingEvent.getDocumentType());
 		persistenceService.persist(toBase(document));
 	}
 
