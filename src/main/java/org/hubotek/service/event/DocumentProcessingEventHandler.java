@@ -1,5 +1,7 @@
 package org.hubotek.service.event;
 
+import java.util.Optional;
+
 import javax.ejb.Asynchronous;
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
@@ -8,6 +10,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.hubotek.model.HubDocument;
+import org.hubotek.model.document.DocumentBase;
 import org.hubotek.service.ejb.document.HubDocumentProvider;
 import org.hubotek.service.orm.PersistenceService;
 import org.nanotek.Base;
@@ -32,7 +35,7 @@ public class DocumentProcessingEventHandler implements DocumentProcessingHandler
 
 	@SuppressWarnings("unchecked")
 	private <T extends Base<?>> T toBase(HubDocument document) {
-		return (T)document;
+		return  (T) Optional.of(document).get();
 	}
 
 }

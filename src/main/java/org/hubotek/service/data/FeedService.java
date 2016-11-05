@@ -1,9 +1,13 @@
 package org.hubotek.service.data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.inject.Named;
 import javax.persistence.TypedQuery;
 
 import org.hubotek.model.feed.FeedUrl;
+import org.hubotek.model.rss.RssDocument;
 import org.hubotek.service.DataBaseService;
 
 @Named
@@ -30,4 +34,10 @@ public class FeedService extends DataBaseService<FeedUrl , Long> {
 	{ 
 		persistenceService.delete(FeedUrl.class);
 	}
+
+	@Override
+	public List<FeedUrl> rangeOf() {
+		return new ArrayList<>();
+	}
+
 }

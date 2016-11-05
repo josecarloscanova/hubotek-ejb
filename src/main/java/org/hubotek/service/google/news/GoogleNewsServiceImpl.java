@@ -22,7 +22,6 @@ import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
  * @author JoseCanova
  *
  */
-@SuppressWarnings("serial")
 @Stateless
 public class GoogleNewsServiceImpl implements GoogleNewsService
 {
@@ -85,7 +84,7 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	
 	private String getEntertaimentUrl()
 	{ 
-		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.CODE, "all").withParameter(GoogleNewsUrlParametersEnum.TOPIC, "e").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
+		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.CODE, "all").withParameter(GoogleNewsUrlParametersEnum.PZ , "1").withParameter(GoogleNewsUrlParametersEnum.TOPIC, "e").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
 	}
 
 	private String getTopUrl()

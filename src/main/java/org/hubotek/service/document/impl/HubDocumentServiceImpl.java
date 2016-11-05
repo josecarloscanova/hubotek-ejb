@@ -1,10 +1,14 @@
 package org.hubotek.service.document.impl;
 
+import javax.inject.Named;
+
 import org.hubotek.model.HubDocument;
 import org.hubotek.service.converter.HubDocumentConverter;
 import org.hubotek.service.document.HubDocumentService;
 import org.hubotek.service.ejb.document.HubDocumentType;
 
+@SuppressWarnings("serial")
+@Named("hubDocumentService")
 public class HubDocumentServiceImpl  implements HubDocumentService {
 
 	@Override

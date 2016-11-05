@@ -84,6 +84,10 @@
 			<artifactId>model</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.hubotek</groupId>
+			<artifactId>view</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.querydsl</groupId>
 			<artifactId>querydsl-jpa</artifactId>
 			<version>${querydsl.version}</version>
@@ -139,6 +143,12 @@
 			<dependency>
 				<groupId>org.hubotek</groupId>
 				<artifactId>model</artifactId>
+				<version>1.0</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.hubotek</groupId>
+				<artifactId>view</artifactId>
 				<version>1.0</version>
 				<scope>compile</scope>
 			</dependency>

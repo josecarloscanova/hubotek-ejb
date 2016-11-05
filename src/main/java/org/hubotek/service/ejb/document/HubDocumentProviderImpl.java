@@ -11,7 +11,6 @@ import javax.inject.Named;
 import org.hubotek.model.HubDocument;
 import org.hubotek.service.document.HubDocumentService;
 
-@SuppressWarnings("serial")
 @Stateless
 @TransactionManagement(TransactionManagementType.CONTAINER)
 public class HubDocumentProviderImpl implements HubDocumentProvider{
