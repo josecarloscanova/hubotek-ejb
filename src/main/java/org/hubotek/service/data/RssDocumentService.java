@@ -31,7 +31,7 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 	public List<RssDocument> rangeOf()
 	{ 
 		JPAQuery<?> query = new JPAQuery<Void>(persistenceService.getEntityManager());
-		return query.from(rssDocument).createQuery().setFirstResult(0).setMaxResults(100).getResultList();
+		return query.from(rssDocument).orderBy(rssDocument.id.desc()).createQuery().setFirstResult(0).setMaxResults(100).getResultList();
 	}
 	
 	@Override
