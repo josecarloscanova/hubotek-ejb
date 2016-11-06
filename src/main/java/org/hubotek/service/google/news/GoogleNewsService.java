@@ -13,7 +13,12 @@ public interface GoogleNewsService extends LocalService{
 	
 	HubDocument processRequestWorld();
 	
+	HubDocument processRequestCountry();
+	
+	HubDocument processRequestSports();
+	
+	HubDocument processRequestHealth();
+	
 	HubDocument processRequestSearch(String searchString);
 	
-	HubDocument processRequestSearchHub(String searchString);
 }

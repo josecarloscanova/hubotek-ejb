@@ -72,6 +72,27 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 		return  hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 	
+	@Override
+	public HubDocument processRequestCountry() {
+		String documentString =   httpRequestProcessor.processRequest(getCountryUrl(), new HttpRequestParameters(), RequestType.GET);
+		fireEventDocumentProcessing(documentString);
+		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
+	}
+
+	@Override
+	public HubDocument processRequestSports() {
+		String documentString =   httpRequestProcessor.processRequest(getSportsUrl(), new HttpRequestParameters(), RequestType.GET);
+		fireEventDocumentProcessing(documentString);
+		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
+	}
+
+	@Override
+	public HubDocument processRequestHealth() {
+		String documentString =   httpRequestProcessor.processRequest(getHealthUrl(), new HttpRequestParameters(), RequestType.GET);
+		fireEventDocumentProcessing(documentString);
+		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
+	}
+	
 	private String getSearchUrl(String encodedString)
 	{ 
 		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.NUM, "30").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.QUERY, encodedString).withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
@@ -97,11 +118,20 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.CODE, "all").withParameter(GoogleNewsUrlParametersEnum.TOPIC, "w").withParameter(GoogleNewsUrlParametersEnum.PZ , "1").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
 	}
 
-	public HubDocument processRequestSearchHub(String searchString)
+	
+	private String getCountryUrl()
 	{ 
-		String encodedString = URLEncoder.encode(searchString);
-		String documentString = httpRequestProcessor.processRequest( getSearchUrl(encodedString), new HttpRequestParameters(), RequestType.GET);
-		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
+		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.CODE, "all").withParameter(GoogleNewsUrlParametersEnum.TOPIC, "n").withParameter(GoogleNewsUrlParametersEnum.PZ , "1").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
+	}
+	
+	private String getSportsUrl()
+	{ 
+		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.CODE, "all").withParameter(GoogleNewsUrlParametersEnum.TOPIC, "s").withParameter(GoogleNewsUrlParametersEnum.PZ , "1").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
+	}
+	
+	private String getHealthUrl()
+	{ 
+		return new GoogleNewsUrlBuilder().withParameter(GoogleNewsUrlParametersEnum.CODE, "all").withParameter(GoogleNewsUrlParametersEnum.TOPIC, "m").withParameter(GoogleNewsUrlParametersEnum.PZ , "1").withParameter(GoogleNewsUrlParametersEnum.NED, "us").withParameter(GoogleNewsUrlParametersEnum.OUTPUT, "rss").build();
 	}
 	
 	private void fireEventDocumentProcessing(String documentString) {
