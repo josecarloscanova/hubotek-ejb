@@ -9,7 +9,6 @@ import javax.ejb.TransactionManagementType;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import org.hubotek.model.rss.RssDocument;
 import org.hubotek.service.converter.search.HistoryDocumentItemConverter;
 import org.hubotek.service.converter.search.HistoryRssDocumentCoverter;
 import org.hubotek.service.data.RssDocumentService;
@@ -37,8 +36,8 @@ public class SearchHistoryProviderImpl implements SearchHistoryProvider {
 	}
 
 	@Override
-	public List<HistoryDocumentItem> findItemByDocumentId(Long historyDocumentId) {
-		return rssDocumentService.findById(historyDocumentId).getRssItems().stream().filter(p -> p.getRssItemDescription().getDescription() !=null).map(p -> documentItemConverter.convert(p)).collect(Collectors.toList());
+	public List<HistoryDocumentItem> findItemByDocumentId(Long documentId) {
+		return rssDocumentService.findRssDocumentItems(documentId).stream().map(p -> documentItemConverter.convert(p)).collect(Collectors.toList());
 	}
 
 }

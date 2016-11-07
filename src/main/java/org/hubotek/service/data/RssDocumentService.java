@@ -1,17 +1,24 @@
 package org.hubotek.service.data;
 
 import java.util.List;
+import java.util.Map;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
+import org.hubotek.model.lob.QRssItemDescription;
 import org.hubotek.model.rss.QRssDocument;
+import org.hubotek.model.rss.QRssItem;
 import org.hubotek.model.rss.RssDocument;
 import org.hubotek.service.DataBaseService;
 import org.hubotek.service.Service;
 import org.hubotek.service.orm.PersistenceService;
 
+import com.querydsl.core.types.Expression;
+import com.querydsl.core.types.Projections;
+import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQuery;
+import com.querydsl.jpa.impl.JPAQueryFactory;
 
 public class RssDocumentService extends DataBaseService<RssDocument , Long> implements Service{
 
@@ -19,6 +26,10 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 	PersistenceService persistenceService; 
 	
 	private QRssDocument rssDocument;
+	private QRssItem rssItem;
+	private QRssItemDescription rssItemDescription;
+	private JPAQuery<?> query;
+	private JPAQueryFactory  qf;
 	
 	public RssDocumentService(){}
 	
@@ -26,12 +37,39 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 	public void prepare()
 	{ 
 		rssDocument = QRssDocument.rssDocument;
+		rssItem = QRssItem.rssItem;
+		rssItemDescription = QRssItemDescription.rssItemDescription;
+		query = new JPAQuery<Void>(persistenceService.getEntityManager());
+		qf = new JPAQueryFactory(persistenceService.getEntityManager());
 	}
 	
 	public List<RssDocument> rangeOf()
 	{ 
 		JPAQuery<?> query = new JPAQuery<Void>(persistenceService.getEntityManager());
 		return query.from(rssDocument).orderBy(rssDocument.id.desc()).createQuery().setFirstResult(0).setMaxResults(100).getResultList();
+	}
+	
+	public List<Map<Expression<?>,?>> findRssDocumentItems(Long documentId)
+	{ 
+		
+		return  qf.select(Projections.map(rssItem.id, rssItem.title , rssItem.link , rssItem.pubDate , rssItem.category , rssItem.rssItemDescription.description)).from(rssItem)
+				.innerJoin(rssItem.rssItemDescription , rssItemDescription)
+				.where (rssItem.id.in(
+						JPAExpressions.select(rssItem.id)
+			            .from(rssDocument)
+			            .innerJoin(rssDocument.rssItems , rssItem)
+			            .where(rssDocument.id.eq(documentId)))
+				).createQuery().getResultList();
+//                .from(employee).fetch();
+		/*for (Tuple row : result) 
+		     System.out.println("firstName " + row.get(employee.firstName));
+		     System.out.println("lastName " + row.get(employee.lastName));
+		}}*/
+		
+//		queryFactory.selectFrom(cat)
+//	    .innerJoin(cat.mate, mate)
+//	    .leftJoin(cat.kittens, kitten)
+//	    .fetch();
 	}
 	
 	@Override
