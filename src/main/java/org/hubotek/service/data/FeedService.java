@@ -35,9 +35,4 @@ public class FeedService extends DataBaseService<FeedUrl , Long> {
 		persistenceService.delete(FeedUrl.class);
 	}
 
-	@Override
-	public List<FeedUrl> rangeOf() {
-		return new ArrayList<>();
-	}
-
 }

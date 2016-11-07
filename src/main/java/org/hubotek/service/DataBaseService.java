@@ -22,5 +22,4 @@ public abstract class DataBaseService<T extends Base<K> , K extends Serializable
 		return persistenceService.<T>createQuery("Select r from " + clazz.getSimpleName() , clazz).setFirstResult(0).setMaxResults(100).getResultList();
 	}
 	
-	public abstract List<T> rangeOf();
 }

@@ -43,10 +43,9 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 		qf = new JPAQueryFactory(persistenceService.getEntityManager());
 	}
 	
-	public List<RssDocument> rangeOf()
+	public List<Map<Expression<?>,?>> getRangeOf()
 	{ 
-		JPAQuery<?> query = new JPAQuery<Void>(persistenceService.getEntityManager());
-		return query.from(rssDocument).orderBy(rssDocument.id.desc()).createQuery().setFirstResult(0).setMaxResults(100).getResultList();
+		return qf.select(Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate)).from(rssDocument).orderBy(rssDocument.id.desc()).limit(100).fetch();
 	}
 	
 	public List<Map<Expression<?>,?>> findRssDocumentItems(Long documentId)
@@ -59,17 +58,7 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 			            .from(rssDocument)
 			            .innerJoin(rssDocument.rssItems , rssItem)
 			            .where(rssDocument.id.eq(documentId)))
-				).createQuery().getResultList();
-//                .from(employee).fetch();
-		/*for (Tuple row : result) 
-		     System.out.println("firstName " + row.get(employee.firstName));
-		     System.out.println("lastName " + row.get(employee.lastName));
-		}}*/
-		
-//		queryFactory.selectFrom(cat)
-//	    .innerJoin(cat.mate, mate)
-//	    .leftJoin(cat.kittens, kitten)
-//	    .fetch();
+				).fetch();
 	}
 	
 	@Override
