@@ -9,6 +9,7 @@ import javax.ejb.TransactionManagementType;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+import org.hubotek.model.rss.RssDocument;
 import org.hubotek.service.converter.search.HistoryDocumentItemConverter;
 import org.hubotek.service.converter.search.HistoryRssDocumentCoverter;
 import org.hubotek.service.data.RssDocumentService;
@@ -30,9 +31,10 @@ public class SearchHistoryProviderImpl implements SearchHistoryProvider {
 	@Inject @Named("historyDocumentItemConverter")
 	HistoryDocumentItemConverter documentItemConverter;
 	
+	//TODO: create class/type to manage pagination request.
 	@Override
 	public List<HistoryDocument> findHistoryDocuments() {
-		return rssDocumentService.rangeOf().stream().map(p->converter.convert(p)).collect(Collectors.toList());
+		return rssDocumentService.findByRange(RssDocument.class , null , null).stream().map(p->converter.convert(p)).collect(Collectors.toList());
 	}
 
 	@Override
