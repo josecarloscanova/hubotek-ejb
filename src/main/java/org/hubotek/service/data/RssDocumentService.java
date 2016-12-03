@@ -5,6 +5,7 @@ import java.util.Map;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import org.hubotek.model.lob.QRssItemDescription;
 import org.hubotek.model.rss.QRssDocument;
@@ -20,6 +21,7 @@ import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
+@Named("rssDocumentService")
 public class RssDocumentService extends DataBaseService<RssDocument , Long> implements Service{
 
 	@Inject 
@@ -45,8 +47,17 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 	
 	public List<Map<Expression<?>,?>> getRangeOf()
 	{ 
+//		applyMapProjection(rssDocument, Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate));
 		return qf.select(Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate)).from(rssDocument).orderBy(rssDocument.id.desc()).limit(100).fetch();
 	}
+	
+
+	public List<Map<Expression<?>,?>> getRangeOf(int offset , int num_records)
+	{ 
+//		applyMapProjection(rssDocument, Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate));
+		return qf.select(Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate)).from(rssDocument).orderBy(rssDocument.id.desc()).offset(offset).limit(num_records).fetch();
+	}
+
 	
 	public List<Map<Expression<?>,?>> findRssDocumentItems(Long documentId)
 	{ 
