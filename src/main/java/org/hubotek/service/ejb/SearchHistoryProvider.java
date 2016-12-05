@@ -7,7 +7,7 @@ import org.hubotek.view.search.history.HistoryDocumentItem;
 
 public interface SearchHistoryProvider  extends LocalService{
 
-	List<HistoryDocument> findHistoryDocuments();
+	List<HistoryDocument> findHistoryDocuments(Integer offSet , Integer limit);
 	
 	List<HistoryDocumentItem> findItemByDocumentId(Long historyDocumentId);
 	

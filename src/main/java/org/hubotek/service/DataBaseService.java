@@ -35,7 +35,7 @@ public abstract class DataBaseService<T extends Base<K> , K extends Serializable
 	
 	public List<T> findByRange(Class<T> clazz , Integer offset , Integer limit)
 	{ 
-		return   persistenceService.<T>createQuery("Select r from " + clazz.getSimpleName() + " r " , clazz).setFirstResult(Optional.fromNullable(offset).or(0)).setMaxResults(Optional.fromNullable(limit).or(DEFAULT_MAX_RECORDS)).getResultList();
+		return   persistenceService.<T>createQuery("Select r from " + clazz.getSimpleName() + " r order by r.id desc" , clazz).setFirstResult(Optional.fromNullable(offset).or(0)).setMaxResults(Optional.fromNullable(limit).or(DEFAULT_MAX_RECORDS)).getResultList();
 	}
 	
 }

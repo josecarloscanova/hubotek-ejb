@@ -2,9 +2,9 @@ package org.hubotek.service.http;
 
 public class HttpRequestParameters {
 
-	private Integer connectTimeout = 90000; 
+	private Integer connectTimeout = 300000; 
 	
-	private Integer socketTimeout = 90000;
+	private Integer socketTimeout = 300000;
 
 	public HttpRequestParameters(){}
 	

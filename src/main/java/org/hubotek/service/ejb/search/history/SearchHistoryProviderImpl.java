@@ -33,8 +33,8 @@ public class SearchHistoryProviderImpl implements SearchHistoryProvider {
 	
 	//TODO: create class/type to manage pagination request.
 	@Override
-	public List<HistoryDocument> findHistoryDocuments() {
-		return rssDocumentService.findByRange(RssDocument.class , null , null).stream().map(p->converter.convert(p)).collect(Collectors.toList());
+	public List<HistoryDocument> findHistoryDocuments(Integer offset , Integer limit) {
+		return rssDocumentService.findByRange(RssDocument.class , offset , limit).stream().map(p->converter.convert(p)).collect(Collectors.toList());
 	}
 
 	@Override
