@@ -31,13 +31,13 @@ public class GoogleSearchUrlBuilder implements Builder<String>{
 	
 	public GoogleSearchUrlBuilder withNum(Integer num)
 	{ 
-		parameters.put(ParameterEnum.NUM, Optional.ofNullable(num).orElse(0).toString());
+		parameters.put(ParameterEnum.NUM, Optional.ofNullable(num).orElse(10).toString());
 		return this;
 	}
 
 	public GoogleSearchUrlBuilder withStartIndex(Integer startIndex)
 	{ 
-		parameters.put(ParameterEnum.START_INDEX, Optional.ofNullable(startIndex).orElse(0).toString());
+		parameters.put(ParameterEnum.START_INDEX, Optional.ofNullable(startIndex).orElse(1).toString());
 		return this;
 	}
 	
@@ -82,6 +82,13 @@ public class GoogleSearchUrlBuilder implements Builder<String>{
 		parameters.put(ParameterEnum.COUNTRY , Optional.ofNullable(country).orElse("countryUS"));
 		return this;
 	}
+	
+	public GoogleSearchUrlBuilder withKey(String key)
+	{ 
+		parameters.put(ParameterEnum.KEY , Optional.ofNullable(key).orElse("insert-your-key"));
+		return this;
+	}
+	
 	
 	@Override
 	public String build() {

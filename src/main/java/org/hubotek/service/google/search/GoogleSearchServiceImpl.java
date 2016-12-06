@@ -1,18 +1,22 @@
 package org.hubotek.service.google.search;
 
-import java.io.OutputStream;
 import java.io.PrintStream;
-import java.util.function.Function;
 
 import javax.ejb.EJB;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
+import javax.inject.Named;
 
-import org.hubotek.model.google.search.SearchParameterTemplate;
 import org.hubotek.service.ejb.http.HttpServiceImpl;
+import org.hubotek.service.http.HttpRequestParameters;
+import org.hubotek.service.http.RequestType;
+import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
+import org.hubotek.model.google.search.SearchParameterTemplate;
 
-public class GoogleSearchServiceImpl {// implements GoogleSearchService{
+@Stateless
+public class GoogleSearchServiceImpl  implements GoogleSearchService{
 
-	//	private static final long serialVersionUID = 8258092920115020536L;
+	private static final long serialVersionUID = 8258092920115020536L;
 
 	private static final String GOOGLE_SEARCH_URL = "https://www.googleapis.com/customsearch/v1";
 
@@ -21,8 +25,8 @@ public class GoogleSearchServiceImpl {// implements GoogleSearchService{
 	@Inject
 	private GoogleSearchUrlBuilder googleSearchUrlBuilder;
 
-	@EJB
-	private HttpServiceImpl httpService;
+	@Inject @Named("httpRequestProcessor")
+	HttpRequestProcessorServiceImpl httpRequestProcessor; 
 
 	public GoogleSearchServiceImpl (){}
 
@@ -32,7 +36,7 @@ public class GoogleSearchServiceImpl {// implements GoogleSearchService{
 	}
 
 	public String doSearch(SearchParameterTemplate spt) {
-		return httpService.doRequest(prepareUrl(spt));
+		return httpRequestProcessor.processRequest(prepareUrl(spt) , new HttpRequestParameters() , RequestType.GET);
 	}
 
 	private String prepareUrl(SearchParameterTemplate spt)
@@ -44,14 +48,15 @@ public class GoogleSearchServiceImpl {// implements GoogleSearchService{
 	{ 
 		return googleSearchUrlBuilder.withAlt(spt.getAlt())
 				.withCountry(spt.getCountry())
-				.withCref(spt.getCref())
 				.withCx(spt.getCx())
 				.withLanguage(spt.getLanguage())
 				.withNum(spt.getNum())
 				.withSafe(spt.getSafe())
 				.withSearchTerms(spt.getSearchTerms())
 				.withSort(spt.getSort())
-				.withStartIndex(spt.getStartIndex()).build();
+				.withStartIndex(spt.getStartIndex())
+				.withKey("AIzaSyBof_lvJ8KJDjwnNJLw4KVtn3DeR7IreXk")
+				.build();
 	}
 
 
@@ -61,7 +66,11 @@ public class GoogleSearchServiceImpl {// implements GoogleSearchService{
 		SearchParameterTemplate spt = new SearchParameterTemplate();
 		spt.setSearchTerms("java+language");
 		spt.setAlt("json");
-		out.println(new GoogleSearchServiceImpl(googleSearchUrlBuilder).mountQueryString(spt));
+		spt.setCx("partner-pub-6996754678263425:6706236868");
+		spt.setLanguage("us");
+		spt.setSafe("off");
+		spt.setSort("date");
+		out.println(new GoogleSearchServiceImpl(googleSearchUrlBuilder).prepareUrl(spt));
 	}
 
 }

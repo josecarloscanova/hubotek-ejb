@@ -3,7 +3,7 @@ package org.hubotek.service.google.search;
 /*provide the header and query string attributes for the custom search*/
 public enum ParameterEnum{ 
 		
-		SEARCH_TERM ("searchTerms"), 
+		SEARCH_TERM ("q"), 
 		NUM ("num"), 
 		START_INDEX ("startIndex"),
 		LANGUAGE ("language"), 
@@ -12,8 +12,9 @@ public enum ParameterEnum{
 		CREF ("cref"),
 		SORT ("sort"),
 		FILTER ("filter"), 
-		ALT ("alt"),
-		COUNTRY("cr");
+		ALT ("output"),
+		COUNTRY("cr"),
+		KEY("key");
 		
 		private String parameterValue;
 		
