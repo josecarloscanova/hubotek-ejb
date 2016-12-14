@@ -2,16 +2,14 @@ package org.hubotek.service.google.search;
 
 import java.io.PrintStream;
 
-import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import org.hubotek.service.ejb.http.HttpServiceImpl;
+import org.hubotek.model.google.search.SearchParameterTemplate;
 import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.RequestType;
 import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
-import org.hubotek.model.google.search.SearchParameterTemplate;
 
 @Stateless
 public class GoogleSearchServiceImpl  implements GoogleSearchService{
@@ -27,7 +25,7 @@ public class GoogleSearchServiceImpl  implements GoogleSearchService{
 
 	@Inject @Named("httpRequestProcessor")
 	HttpRequestProcessorServiceImpl httpRequestProcessor; 
-
+	
 	public GoogleSearchServiceImpl (){}
 
 	public GoogleSearchServiceImpl (GoogleSearchUrlBuilder googleSearchUrlBuilder)

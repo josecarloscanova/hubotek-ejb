@@ -13,6 +13,7 @@ import org.hubotek.model.cse.QCseKey;
 import org.hubotek.service.DataBaseService;
 import org.hubotek.service.converter.cse.CustomSearchKeyConverter;
 import org.hubotek.service.converter.cse.GoogleCseKeyConverter;
+import org.hubotek.service.data.CseKeyService;
 import org.hubotek.view.cse.GoogleCustomSearchEngineKey;
 
 import com.querydsl.jpa.impl.JPAQuery;
@@ -23,45 +24,34 @@ public class GoogleCseKeyServiceImpl extends DataBaseService<CseKey , Long> impl
 
 	private static final long serialVersionUID = 7560372868914363286L;
 
-	private QCseKey qcseKey;
-
-	private JPAQuery<Void> query;
-
-	private JPAQueryFactory qf;
-	
 	@Inject @Named("customSearchKeyConverter")
 	CustomSearchKeyConverter converter;
 	
 	@Inject @Named("googleCseKeyConverter")
-	GoogleCseKeyConverter googleCseKeyConverter;
+	GoogleCseKeyConverter cseKeyConverter;
+	
+	@Inject @Named("cseKeyService")
+	CseKeyService cseKeyService;
 	
 	public GoogleCseKeyServiceImpl(){}
 	
 	@PostConstruct
 	public void prepare()
 	{ 
-		 qcseKey = QCseKey.cseKey;
-		 query = new JPAQuery<Void>(persistenceService.getEntityManager());
-		 qf = new JPAQueryFactory(persistenceService.getEntityManager());
 	}
 	
-	public CseKey addNewKey(CseKey cseKey)
+	public List<GoogleCustomSearchEngineKey> findByValue(String key)
 	{ 
-		return persistenceService.save(cseKey);
+		return cseKeyService.findByValue(key).stream().map(k ->cseKeyConverter.convert(k)).collect(Collectors.toList());
 	}
 	
-	public List<CseKey> findByKey(String key)
+	public List<GoogleCustomSearchEngineKey> getKeys()
 	{ 
-		return qf.selectFrom(qcseKey).where(qcseKey.key.like(new StringBuffer('%').append(key).append('%').toString())).fetch();
-	}
-	
-	public List<?> getKeys()
-	{ 
-		return qf.selectFrom(qcseKey).orderBy(qcseKey.id.asc()).fetch().stream().map(k ->googleCseKeyConverter.convert(k)).collect(Collectors.toList());
+		return cseKeyService.listKeys( 0 , DEFAULT_MAX_RECORDS).stream().map(k ->cseKeyConverter.convert(k)).collect(Collectors.toList());
 	}
 
 	public void saveKey(GoogleCustomSearchEngineKey googleCustomSearchEngineKey) {
-		addNewKey(converter.convert(googleCustomSearchEngineKey));
+		cseKeyService.addNewKey(converter.convert(googleCustomSearchEngineKey));
 	}
 
 	@Override
@@ -70,8 +60,8 @@ public class GoogleCseKeyServiceImpl extends DataBaseService<CseKey , Long> impl
 	}
 
 	@Override
-	public CseKey getCurrentKey() {
-		return qf.selectFrom(qcseKey).orderBy(qcseKey.id.desc()).fetchFirst();
+	public GoogleCustomSearchEngineKey getCurrentKey() {
+		return    cseKeyConverter.convert(cseKeyService.getCurrentKey());
 	}
 
 }
