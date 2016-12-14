@@ -70,7 +70,7 @@ public class GoogleSearchServiceImpl  implements GoogleSearchService{
 		spt.setLanguage("us");
 		spt.setSafe("off");
 		spt.setSort("date");
-		out.println(new GoogleSearchServiceImpl(googleSearchUrlBuilder).prepareUrl(spt));
+		out.println(new GoogleSearchServiceImpl(googleSearchUrlBuilder.withKey("AIzaSyBof_lvJ8KJDjwnNJLw4KVtn3DeR7IreXk")).prepareUrl(spt));
 	}
 
 }

@@ -8,6 +8,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.hubotek.model.lob.QRssItemDescription;
+import org.hubotek.model.rss.QRssBody;
 import org.hubotek.model.rss.QRssDocument;
 import org.hubotek.model.rss.QRssItem;
 import org.hubotek.model.rss.RssDocument;
@@ -32,6 +33,8 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 	private QRssItemDescription rssItemDescription;
 	private JPAQuery<?> query;
 	private JPAQueryFactory  qf;
+
+	private QRssBody rssBody;
 	
 	public RssDocumentService(){}
 	
@@ -39,6 +42,7 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 	public void prepare()
 	{ 
 		rssDocument = QRssDocument.rssDocument;
+		rssBody = QRssBody.rssBody;
 		rssItem = QRssItem.rssItem;
 		rssItemDescription = QRssItemDescription.rssItemDescription;
 		query = new JPAQuery<Void>(persistenceService.getEntityManager());
@@ -48,21 +52,25 @@ public class RssDocumentService extends DataBaseService<RssDocument , Long> impl
 	public List<Map<Expression<?>,?>> getRangeOf()
 	{ 
 //		applyMapProjection(rssDocument, Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate));
-		return qf.select(Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate)).from(rssDocument).orderBy(rssDocument.id.desc()).limit(100).fetch();
+		return  qf.select(Projections.map(rssDocument.id  , rssDocument.rssBody.title , 
+				rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate))
+				.from(rssDocument).innerJoin(rssDocument.rssBody , rssBody).orderBy(rssDocument.id.desc()).limit(100).fetch();
 	}
 	
 
 	public List<Map<Expression<?>,?>> getRangeOf(int offset , int num_records)
 	{ 
 //		applyMapProjection(rssDocument, Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate));
-		return qf.select(Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate)).from(rssDocument).orderBy(rssDocument.id.desc()).offset(offset).limit(num_records).fetch();
+		return  qf.select(Projections.map(rssDocument.id  , rssDocument.rssBody.title , rssDocument.rssBody.link, 
+				rssDocument.rssBody.webMaster, rssDocument.rssBody.pubDate)).from(rssDocument).innerJoin(rssDocument.rssBody , rssBody)
+				.orderBy(rssDocument.id.desc()).offset(offset).limit(num_records).fetch();
 	}
-
 	
 	public List<Map<Expression<?>,?>> findRssDocumentItems(Long documentId)
 	{ 
 		
-		return  qf.select(Projections.map(rssItem.id, rssItem.title , rssItem.link , rssItem.pubDate , rssItem.category , rssItem.rssItemDescription.description)).from(rssItem)
+		return  qf.select(Projections.map(rssItem.id, rssItem.title , rssItem.link , 
+				rssItem.pubDate , rssItem.category , rssItem.rssItemDescription.description)).from(rssItem)
 				.innerJoin(rssItem.rssItemDescription , rssItemDescription)
 				.where (rssItem.id.in(
 						JPAExpressions.select(rssItem.id)

@@ -5,21 +5,17 @@ import java.util.function.Supplier;
 
 import org.hubotek.model.lob.QRssItemDescription;
 import org.hubotek.model.rss.QRssItem;
-import org.hubotek.model.rss.RssItem;
 import org.hubotek.view.search.history.HistoryDocumentItem;
 
-import com.querydsl.core.Tuple;
 import com.querydsl.core.types.Expression;
 
 public class HistoryDocumentItemSupplier implements Supplier<HistoryDocumentItem> {
 
 	private Map<Expression<?>,?> tuple;
-	private QRssItemDescription rssItemDescription;
 	private QRssItem rssItem;
 
 	public HistoryDocumentItemSupplier(Map<Expression<?> , ?> item){
 		this.tuple = item;
-		rssItemDescription = QRssItemDescription.rssItemDescription;
 		rssItem = QRssItem.rssItem;
 	}
 	
