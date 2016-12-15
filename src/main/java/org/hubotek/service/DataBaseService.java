@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import org.hubotek.service.orm.PersistenceService;
 import org.nanotek.Base;
@@ -30,8 +31,8 @@ public abstract class DataBaseService<T extends Base<K> , K extends Serializable
 
 	public static final Integer DEFAULT_MAX_RECORDS = 100;
 	
-	@Inject 
-	protected PersistenceService persistenceService; 
+	@Inject @Named("persistenceService")
+	protected PersistenceService persistenceService;
 	
 	public void deleteAll (){ 
 		persistenceService.delete(getPersistentClass());

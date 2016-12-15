@@ -7,9 +7,11 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.hubotek.model.google.search.SearchParameterTemplate;
+import org.hubotek.service.data.CseKeyService;
 import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.RequestType;
 import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
+import org.hubotek.util.EncoderHelper;
 
 @Stateless
 public class GoogleSearchServiceImpl  implements GoogleSearchService{
@@ -22,6 +24,9 @@ public class GoogleSearchServiceImpl  implements GoogleSearchService{
 	
 	@Inject
 	private GoogleSearchUrlBuilder googleSearchUrlBuilder;
+	
+	@Inject @Named("cseKeyService")
+	CseKeyService cseKeyService;
 
 	@Inject @Named("httpRequestProcessor")
 	HttpRequestProcessorServiceImpl httpRequestProcessor; 
@@ -50,10 +55,10 @@ public class GoogleSearchServiceImpl  implements GoogleSearchService{
 				.withLanguage(spt.getLanguage())
 				.withNum(spt.getNum())
 				.withSafe(spt.getSafe())
-				.withSearchTerms(spt.getSearchTerms())
+				.withSearchTerms(EncoderHelper.encode(spt.getSearchTerms()))
 				.withSort(spt.getSort())
 				.withStartIndex(spt.getStartIndex())
-				.withKey("AIzaSyBof_lvJ8KJDjwnNJLw4KVtn3DeR7IreXk")
+				.withKey(cseKeyService.getCurrentKey().getKey())
 				.build();
 	}
 
@@ -62,7 +67,7 @@ public class GoogleSearchServiceImpl  implements GoogleSearchService{
 	{ 
 		GoogleSearchUrlBuilder googleSearchUrlBuilder = new GoogleSearchUrlBuilder();
 		SearchParameterTemplate spt = new SearchParameterTemplate();
-		spt.setSearchTerms("java+language");
+		spt.setSearchTerms("java language");
 		spt.setAlt("json");
 		spt.setCx("partner-pub-6996754678263425:6706236868");
 		spt.setLanguage("us");

@@ -15,16 +15,17 @@ import org.hubotek.service.event.DocumentProcessingEvent;
 import org.hubotek.service.http.HttpRequestParameters;
 import org.hubotek.service.http.RequestType;
 import org.hubotek.service.http.impl.HttpRequestProcessorServiceImpl;
+import org.hubotek.util.EncoderHelper;
 
 
 /**
- * Not yet finished.
  * @author JoseCanova
- *
  */
 @Stateless
 public class GoogleNewsServiceImpl implements GoogleNewsService
 {
+
+	private static final long serialVersionUID = -8668390061371345053L;
 
 	@Inject @Named("httpRequestProcessor")
 	HttpRequestProcessorServiceImpl httpRequestProcessor; 
@@ -66,7 +67,7 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	@Override
 	public HubDocument processRequestSearch(String searchString)
 	{ 
-		String encodedString = URLEncoder.encode(searchString);
+		String encodedString = EncoderHelper.encode(searchString);
 		String documentString = httpRequestProcessor.processRequest( getSearchUrl(encodedString), new HttpRequestParameters(), RequestType.GET);
 		fireEventDocumentProcessing(documentString);
 		return  hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);

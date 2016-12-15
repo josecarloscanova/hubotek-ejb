@@ -3,27 +3,19 @@ package org.hubotek.service.data;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
-import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.hubotek.model.cse.CseKey;
 import org.hubotek.model.cse.QCseKey;
 import org.hubotek.service.DataBaseService;
-import org.hubotek.service.orm.PersistenceService;
 
-import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
 @Named("cseKeyService")
 public class CseKeyService extends DataBaseService<CseKey , Long>{
 	
 	private QCseKey qcseKey;
-	private JPAQuery<Void> query;
 	private JPAQueryFactory qf;
-	
-	@Inject @Named("persistenceService")
-	PersistenceService persistenceService;
-
 	
 	public CseKeyService(){}
 	

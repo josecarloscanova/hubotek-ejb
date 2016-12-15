@@ -9,15 +9,11 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.hubotek.model.cse.CseKey;
-import org.hubotek.model.cse.QCseKey;
 import org.hubotek.service.DataBaseService;
 import org.hubotek.service.converter.cse.CustomSearchKeyConverter;
 import org.hubotek.service.converter.cse.GoogleCseKeyConverter;
 import org.hubotek.service.data.CseKeyService;
 import org.hubotek.view.cse.GoogleCustomSearchEngineKey;
-
-import com.querydsl.jpa.impl.JPAQuery;
-import com.querydsl.jpa.impl.JPAQueryFactory;
 
 @Stateless
 public class GoogleCseKeyServiceImpl extends DataBaseService<CseKey , Long> implements GoogleCseKeyService {
