@@ -89,13 +89,12 @@ public class GoogleSearchUrlBuilder implements Builder<String>{
 		return this;
 	}
 	
-	
+	//Check for a Guava helper
 	@Override
 	public String build() {
 		List<String> queryStringList = new ArrayList<String>();
 		parameters.keySet().stream().forEach((k)->queryStringList.add(k.getParameterValue()+"="+ parameters.get(k)));
-		Optional <String> val = queryStringList.stream().reduce((s , t) -> s +="&"+t);
-		return val.get();
+		return queryStringList.stream().reduce((s , t) -> s +="&"+t).get();
 	}
 	
 }

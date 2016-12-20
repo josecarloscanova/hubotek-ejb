@@ -4,7 +4,7 @@ package org.hubotek.service.google.search;
 public enum ParameterEnum{ 
 		
 		SEARCH_TERM ("q"), 
-		NUM ("num"), 
+		NUM ("count"), 
 		START_INDEX ("startIndex"),
 		LANGUAGE ("language"), 
 		SAFE ("safe"),
