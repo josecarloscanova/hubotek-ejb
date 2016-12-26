@@ -5,7 +5,7 @@ public enum ParameterEnum{
 		
 		SEARCH_TERM ("q"), 
 		NUM ("count"), 
-		START_INDEX ("startIndex"),
+		START_INDEX ("start"),
 		LANGUAGE ("language"), 
 		SAFE ("safe"),
 		CX ("cx"),
