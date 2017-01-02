@@ -8,7 +8,7 @@ import org.hubotek.view.cse.GoogleCustomSearchEngine;
 
 public interface GoogleCseEngineService extends LocalService{
 
-	List<GoogleCustomSearchEngine> findByValue(String definition);
+	GoogleCustomSearchEngine findByValue(String definition);
 	
 	List<GoogleCustomSearchEngine> getEngines(); 
 	

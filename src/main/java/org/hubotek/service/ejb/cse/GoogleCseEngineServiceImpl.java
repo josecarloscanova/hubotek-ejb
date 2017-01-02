@@ -1,6 +1,8 @@
 package org.hubotek.service.ejb.cse;
 
+import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -20,13 +22,13 @@ public class GoogleCseEngineServiceImpl implements GoogleCseEngineService{
 	
 	Function <GoogleCustomSearchEngine , CseEngine> toModel = (t) ->  new CseEngine(t.getIdentification(), t.getDescription(), t.getDateCreated());
 	
-	Function <CseEngine ,GoogleCustomSearchEngine > toView = (t) ->  new GoogleCustomSearchEngine(t.getIdentification(), t.getDescription(), t.getDateCreated());
+	Function <CseEngine ,GoogleCustomSearchEngine > toView = (t) ->  new GoogleCustomSearchEngine(t.getIdentification(), t.getDescription(), new Date(Optional.ofNullable(t.getDateCreated()).orElse(new Date()).getTime()));
 	
 	private static final long serialVersionUID = 6125021310602570054L;
 
 	@Override
-	public List<GoogleCustomSearchEngine> findByValue(String definition) {
-		return cseEngineService.find(definition).stream().map(t -> toView.apply(t)).collect(Collectors.toList());
+	public GoogleCustomSearchEngine findByValue(String identification) {
+		return toView.apply(cseEngineService.find(identification));
 	}
 
 	@Override

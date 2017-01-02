@@ -16,14 +16,13 @@ public class CseEngineService  extends DataBaseService<CseEngine , Long>{
 	
 	private QCseEngine qCseEngine; 
 	
-	
 	JPAQueryFactory qf;
 	
 	public CseEngineService (){}
 	
 	@PostConstruct
 	public void prepare(){
-		 qf = new JPAQueryFactory(persistenceService.getEntityManager());
+		qf = new JPAQueryFactory(persistenceService.getEntityManager());
 		qCseEngine = QCseEngine.cseEngine;
 	}
 	
@@ -43,9 +42,9 @@ public class CseEngineService  extends DataBaseService<CseEngine , Long>{
 		persistenceService.remove(toDelete);
 	}
 	
-	public List<CseEngine> find(String description)
+	public CseEngine find(String identification)
 	{ 
-	    return   qf.selectFrom(qCseEngine).where(qCseEngine.identification.like(new StringBuilder().append('%').append(description).append('%').toString())).fetch();
+	    return   qf.selectFrom(qCseEngine).where(qCseEngine.identification.like(new StringBuilder().append(identification).toString())).fetchOne();
 	}
 	
 }
