@@ -1,7 +1,5 @@
 package org.hubotek.service.google.news;
 
-import java.net.URLEncoder;
-
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.enterprise.event.Event;
