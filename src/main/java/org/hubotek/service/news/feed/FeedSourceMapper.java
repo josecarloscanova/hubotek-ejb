@@ -12,7 +12,9 @@ public interface FeedSourceMapper extends SingleMapper<FeedSource,Feed>{
 	@Override
 	@Mappings({
 				@Mapping(source="feed.feedId" , target="id"),
-				@Mapping(source="" , target="")
+				@Mapping(source="feed.description" , target="description"),
+				@Mapping(source="feed.feedUrl" , target="feed.feedUrl.url"),
+				@Mapping(source="feed.feedUrlDescription" , target="feed.feedUrl.description")
 			  }
 			)
 	FeedSource from(Feed feed);

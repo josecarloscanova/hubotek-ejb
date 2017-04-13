@@ -31,10 +31,10 @@ public class HttpServiceImpl implements HttpService {
 
 	@Override
 	public String doRequest(String url, RequestType requestType, HttpRequestParameters httpRequestParameters) {
-		return requestProcessor.processRequest(url, httpRequestParameters, RequestType.GET);
+		return requestProcessor.processRequest(url, httpRequestParameters, RequestType.GET).getContentBody();
 	}
 
 	public String doRequest(String url, HttpRequestParameters httpRequestParameters, RequestType get) {
-		return requestProcessor.processRequest(url, httpRequestParameters, RequestType.GET);	
+		return requestProcessor.processRequest(url, httpRequestParameters, RequestType.GET).getContentBody();	
 	}
 }

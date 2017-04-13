@@ -39,7 +39,7 @@ public class GoogleSearchServiceImpl  implements GoogleSearchService{
 	}
 
 	public String doSearch(SearchParameterTemplate spt) {
-		return httpRequestProcessor.processRequest(prepareUrl(spt) , new HttpRequestParameters() , RequestType.GET);
+		return httpRequestProcessor.processRequest(prepareUrl(spt) , new HttpRequestParameters() , RequestType.GET).getContentBody();
 	}
 
 	private String prepareUrl(SearchParameterTemplate spt)

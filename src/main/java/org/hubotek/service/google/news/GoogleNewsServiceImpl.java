@@ -17,6 +17,7 @@ import org.hubotek.util.EncoderHelper;
 
 
 /**
+ * Will refactor this 'laters'.
  * @author JoseCanova
  */
 @Stateless
@@ -36,28 +37,28 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	
 	@Override
 	public HubDocument processRequest() {
-		String documentString =  httpRequestProcessor.processRequest(getDefaultUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =  httpRequestProcessor.processRequest(getDefaultUrl(), new HttpRequestParameters(), RequestType.GET).getContentBody();
 		fireEventDocumentProcessing(documentString);
 		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 	
 	@Override
 	public HubDocument processRequestTop() {
-		String documentString =   httpRequestProcessor.processRequest(getTopUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =   httpRequestProcessor.processRequest(getTopUrl(), new HttpRequestParameters(), RequestType.GET).getContentBody();
 		fireEventDocumentProcessing(documentString);
 		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 
 	@Override
 	public HubDocument processRequestEntertainement() {
-		String documentString =  httpRequestProcessor.processRequest(getEntertaimentUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =  httpRequestProcessor.processRequest(getEntertaimentUrl(), new HttpRequestParameters(), RequestType.GET).getContentBody();
 		fireEventDocumentProcessing(documentString);
 		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 	
 	@Override
 	public HubDocument processRequestWorld() {
-		String documentString =   httpRequestProcessor.processRequest(getWorldUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =   httpRequestProcessor.processRequest(getWorldUrl(), new HttpRequestParameters(), RequestType.GET).getContentBody();
 		fireEventDocumentProcessing(documentString);
 		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
@@ -66,28 +67,28 @@ public class GoogleNewsServiceImpl implements GoogleNewsService
 	public HubDocument processRequestSearch(String searchString)
 	{ 
 		String encodedString = EncoderHelper.encode(searchString);
-		String documentString = httpRequestProcessor.processRequest( getSearchUrl(encodedString), new HttpRequestParameters(), RequestType.GET);
+		String documentString = httpRequestProcessor.processRequest( getSearchUrl(encodedString), new HttpRequestParameters(), RequestType.GET).getContentBody();
 		fireEventDocumentProcessing(documentString);
 		return  hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 	
 	@Override
 	public HubDocument processRequestCountry() {
-		String documentString =   httpRequestProcessor.processRequest(getCountryUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =   httpRequestProcessor.processRequest(getCountryUrl(), new HttpRequestParameters(), RequestType.GET).getContentBody();
 		fireEventDocumentProcessing(documentString);
 		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 
 	@Override
 	public HubDocument processRequestSports() {
-		String documentString =   httpRequestProcessor.processRequest(getSportsUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =   httpRequestProcessor.processRequest(getSportsUrl(), new HttpRequestParameters(), RequestType.GET).getContentBody();
 		fireEventDocumentProcessing(documentString);
 		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}
 
 	@Override
 	public HubDocument processRequestHealth() {
-		String documentString =   httpRequestProcessor.processRequest(getHealthUrl(), new HttpRequestParameters(), RequestType.GET);
+		String documentString =   httpRequestProcessor.processRequest(getHealthUrl(), new HttpRequestParameters(), RequestType.GET).getContentBody();
 		fireEventDocumentProcessing(documentString);
 		return hubDocumentProvider.processDocument(documentString, HubDocumentType.RSS);
 	}

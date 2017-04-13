@@ -1,6 +1,6 @@
 package org.hubotek.service.news.feed;
 
-import org.hubotek.model.document.DocumentType;
+import org.nanotek.common.domain.DocumentType;
 
 public class Feed {
 
@@ -66,6 +66,5 @@ public class Feed {
 	public void setFeedUrlDescription(String feedUrlDescription) {
 		this.feedUrlDescription = feedUrlDescription;
 	}
-
 	
 }

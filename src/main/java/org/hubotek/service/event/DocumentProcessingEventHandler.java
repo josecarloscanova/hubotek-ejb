@@ -10,7 +10,6 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.hubotek.model.HubDocument;
-import org.hubotek.model.document.DocumentBase;
 import org.hubotek.service.ejb.document.HubDocumentProvider;
 import org.hubotek.service.orm.PersistenceService;
 import org.nanotek.Base;
