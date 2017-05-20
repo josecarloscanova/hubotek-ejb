@@ -8,7 +8,7 @@ import org.hubotek.service.http.header.HttpHeaders;
 public class HttpProcessorResponse {
 
 	private HttpHeaders httpHeaderHolder;
-	//TODO reate an arraybuffer of bytes and replace the string for content body.
+	//TODO create an arraybuffer of bytes and replace the string for content body.
 	private String contentBody ;
 	
 	public HttpProcessorResponse() {

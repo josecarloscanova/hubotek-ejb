@@ -13,7 +13,7 @@ import org.hubotek.Builder;
 @Named("googleSearchUrlBuilder")
 public class GoogleSearchUrlBuilder implements Builder<String>{
 	
-	private EnumMap<ParameterEnum , String> parameters = new EnumMap<ParameterEnum , String>(ParameterEnum.class);
+	private EnumMap<ParameterEnum , String> parameters;
 	
 	public GoogleSearchUrlBuilder(){}
 	

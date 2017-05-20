@@ -7,7 +7,6 @@ import javax.inject.Named;
 import org.hubotek.Converter;
 import org.hubotek.view.search.history.HistoryDocumentItem;
 
-import com.querydsl.core.Tuple;
 import com.querydsl.core.types.Expression;
 
 @Named("historyDocumentItemConverter")

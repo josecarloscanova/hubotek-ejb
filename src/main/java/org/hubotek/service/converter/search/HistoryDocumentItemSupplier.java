@@ -3,7 +3,6 @@ package org.hubotek.service.converter.search;
 import java.util.Map;
 import java.util.function.Supplier;
 
-import org.hubotek.model.lob.QRssItemDescription;
 import org.hubotek.model.rss.QRssItem;
 import org.hubotek.view.search.history.HistoryDocumentItem;
 
